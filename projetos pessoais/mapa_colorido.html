@@ -1,0 +1,2736 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c24f83147a84ff6b79a1c4861c1860d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7c24f83147a84ff6b79a1c4861c1860d" ></div>
+        
+</body>
+<script>    
+    
+            var map_7c24f83147a84ff6b79a1c4861c1860d = L.map(
+                "map_7c24f83147a84ff6b79a1c4861c1860d",
+                {
+                    center: [-12.6470066, -58.4244261],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ef6fb7fa675745ce9a0289ebdde2cc33 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var marker_683b3e24e9f54b459756a96308239d3d = L.marker(
+                [-14.051019, -52.160133],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_977877ed7c7544c9a215fea605ef39bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_683b3e24e9f54b459756a96308239d3d.setIcon(icon_977877ed7c7544c9a215fea605ef39bd);
+        
+    
+        var popup_a612b17fac7f4215a077a14421b7c2a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32b922c04b6b452baf17955413428a18 = $(`<div id="html_32b922c04b6b452baf17955413428a18" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 3.0<br></div>`)[0];
+            popup_a612b17fac7f4215a077a14421b7c2a2.setContent(html_32b922c04b6b452baf17955413428a18);
+        
+
+        marker_683b3e24e9f54b459756a96308239d3d.bindPopup(popup_a612b17fac7f4215a077a14421b7c2a2)
+        ;
+
+        
+    
+    
+            marker_683b3e24e9f54b459756a96308239d3d.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9430df2d8b1a4b8e833d3e0eaf15b073 = L.marker(
+                [-16.946226, -53.527209],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_9be10ae39bfc45be9e3a767825ba98be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9430df2d8b1a4b8e833d3e0eaf15b073.setIcon(icon_9be10ae39bfc45be9e3a767825ba98be);
+        
+    
+        var popup_28fcb7267f124f4c9d67816c7756d5c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc7331b1c45041cbbe3d579518b82572 = $(`<div id="html_dc7331b1c45041cbbe3d579518b82572" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_28fcb7267f124f4c9d67816c7756d5c7.setContent(html_dc7331b1c45041cbbe3d579518b82572);
+        
+
+        marker_9430df2d8b1a4b8e833d3e0eaf15b073.bindPopup(popup_28fcb7267f124f4c9d67816c7756d5c7)
+        ;
+
+        
+    
+    
+            marker_9430df2d8b1a4b8e833d3e0eaf15b073.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a07dc9c265bc4ed6b30e7b2c4288e894 = L.marker(
+                [-9.866745, -56.086704000000005],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_c22b695cbe0e409fb34f2f8193e31385 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a07dc9c265bc4ed6b30e7b2c4288e894.setIcon(icon_c22b695cbe0e409fb34f2f8193e31385);
+        
+    
+        var popup_ff8bd6fc56764125b1b3f3ef6761f511 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6151179c171c4cb6867217d7a62ba272 = $(`<div id="html_6151179c171c4cb6867217d7a62ba272" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 8.0<br></div>`)[0];
+            popup_ff8bd6fc56764125b1b3f3ef6761f511.setContent(html_6151179c171c4cb6867217d7a62ba272);
+        
+
+        marker_a07dc9c265bc4ed6b30e7b2c4288e894.bindPopup(popup_ff8bd6fc56764125b1b3f3ef6761f511)
+        ;
+
+        
+    
+    
+            marker_a07dc9c265bc4ed6b30e7b2c4288e894.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_77941e018dc94c8089f370b2463e2807 = L.marker(
+                [-17.315324, -53.218125],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_84e8130ef45e49d0ad25f832dc37dafe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_77941e018dc94c8089f370b2463e2807.setIcon(icon_84e8130ef45e49d0ad25f832dc37dafe);
+        
+    
+        var popup_310a55c0f9bb4830b88e165d608502ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f983d1edbc2743118bc52486008eb042 = $(`<div id="html_f983d1edbc2743118bc52486008eb042" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_310a55c0f9bb4830b88e165d608502ff.setContent(html_f983d1edbc2743118bc52486008eb042);
+        
+
+        marker_77941e018dc94c8089f370b2463e2807.bindPopup(popup_310a55c0f9bb4830b88e165d608502ff)
+        ;
+
+        
+    
+    
+            marker_77941e018dc94c8089f370b2463e2807.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56e1849b4ed5425eb5993a63945e825b = L.marker(
+                [-17.82405, -53.279219999999995],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_b7656f75fedb4179b99ab17b592b114f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_56e1849b4ed5425eb5993a63945e825b.setIcon(icon_b7656f75fedb4179b99ab17b592b114f);
+        
+    
+        var popup_f8bdfc027138446aaacffbb145bf11a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a95272fda404674b2703c574e04e0f9 = $(`<div id="html_4a95272fda404674b2703c574e04e0f9" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_f8bdfc027138446aaacffbb145bf11a1.setContent(html_4a95272fda404674b2703c574e04e0f9);
+        
+
+        marker_56e1849b4ed5425eb5993a63945e825b.bindPopup(popup_f8bdfc027138446aaacffbb145bf11a1)
+        ;
+
+        
+    
+    
+            marker_56e1849b4ed5425eb5993a63945e825b.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a1fa7477ce0f4d049a88714fa0a19378 = L.marker(
+                [-9.539809, -57.458677],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_8937a8bcf1ba4998977db0231e085fda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_a1fa7477ce0f4d049a88714fa0a19378.setIcon(icon_8937a8bcf1ba4998977db0231e085fda);
+        
+    
+        var popup_b21d9f8cdfaa4422bfeb48387f6fe7fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab4f384d42be46e1b1caefaa64b9fbbe = $(`<div id="html_ab4f384d42be46e1b1caefaa64b9fbbe" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 4.0<br></div>`)[0];
+            popup_b21d9f8cdfaa4422bfeb48387f6fe7fc.setContent(html_ab4f384d42be46e1b1caefaa64b9fbbe);
+        
+
+        marker_a1fa7477ce0f4d049a88714fa0a19378.bindPopup(popup_b21d9f8cdfaa4422bfeb48387f6fe7fc)
+        ;
+
+        
+    
+    
+            marker_a1fa7477ce0f4d049a88714fa0a19378.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c81c3face89a44dcb2a5691214814a60 = L.marker(
+                [-15.464096, -58.342461],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_b697191a2b024219a56c300da77369dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c81c3face89a44dcb2a5691214814a60.setIcon(icon_b697191a2b024219a56c300da77369dd);
+        
+    
+        var popup_c9b4bb25d1d8441d8a6df82b6da01ef0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a83a3c88a1546bc9cc1ac249bbfafa1 = $(`<div id="html_5a83a3c88a1546bc9cc1ac249bbfafa1" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 3.0<br>Descartado 2.0<br></div>`)[0];
+            popup_c9b4bb25d1d8441d8a6df82b6da01ef0.setContent(html_5a83a3c88a1546bc9cc1ac249bbfafa1);
+        
+
+        marker_c81c3face89a44dcb2a5691214814a60.bindPopup(popup_c9b4bb25d1d8441d8a6df82b6da01ef0)
+        ;
+
+        
+    
+    
+            marker_c81c3face89a44dcb2a5691214814a60.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3edc433466bb46499da43fc4c78081cb = L.marker(
+                [-10.172262, -59.456815],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_8865c8c6efba4bfc9854d9d203de6237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3edc433466bb46499da43fc4c78081cb.setIcon(icon_8865c8c6efba4bfc9854d9d203de6237);
+        
+    
+        var popup_756b3a2ee8fb4692b328f42653d06a65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f49a355271524708bd6110b649b3546f = $(`<div id="html_f49a355271524708bd6110b649b3546f" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 6.0<br></div>`)[0];
+            popup_756b3a2ee8fb4692b328f42653d06a65.setContent(html_f49a355271524708bd6110b649b3546f);
+        
+
+        marker_3edc433466bb46499da43fc4c78081cb.bindPopup(popup_756b3a2ee8fb4692b328f42653d06a65)
+        ;
+
+        
+    
+    
+            marker_3edc433466bb46499da43fc4c78081cb.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b37be88ba5214ddd9603d3f3606e6153 = L.marker(
+                [-16.20669, -55.962337],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_570e930dbbf7464e9815b777071f374f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b37be88ba5214ddd9603d3f3606e6153.setIcon(icon_570e930dbbf7464e9815b777071f374f);
+        
+    
+        var popup_2f4973de2019469683ccae924ec290d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21c17967bdde4b9c9afa95316cbacffe = $(`<div id="html_21c17967bdde4b9c9afa95316cbacffe" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_2f4973de2019469683ccae924ec290d0.setContent(html_21c17967bdde4b9c9afa95316cbacffe);
+        
+
+        marker_b37be88ba5214ddd9603d3f3606e6153.bindPopup(popup_2f4973de2019469683ccae924ec290d0)
+        ;
+
+        
+    
+    
+            marker_b37be88ba5214ddd9603d3f3606e6153.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e46433e60b274337b6442d25af196418 = L.marker(
+                [-15.070160000000001, -57.18778399999999],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_4bd9584b42d04106a585a2f90c9d505f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e46433e60b274337b6442d25af196418.setIcon(icon_4bd9584b42d04106a585a2f90c9d505f);
+        
+    
+        var popup_18dcb117d0d74ce9bae7381771acc400 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9222df5998584834a04fba73b65c8b12 = $(`<div id="html_9222df5998584834a04fba73b65c8b12" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 12.0<br></div>`)[0];
+            popup_18dcb117d0d74ce9bae7381771acc400.setContent(html_9222df5998584834a04fba73b65c8b12);
+        
+
+        marker_e46433e60b274337b6442d25af196418.bindPopup(popup_18dcb117d0d74ce9bae7381771acc400)
+        ;
+
+        
+    
+    
+            marker_e46433e60b274337b6442d25af196418.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f4f48d7bc20435dbecb3f12e8bd2ab3 = L.marker(
+                [-15.880412, -52.263953],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_0afa13ab594d4f6e83855024cf82f6fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9f4f48d7bc20435dbecb3f12e8bd2ab3.setIcon(icon_0afa13ab594d4f6e83855024cf82f6fe);
+        
+    
+        var popup_996fa08136a14a75a1a2ca67370e0570 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a394760ea6554bd89198ee4f566ff8b7 = $(`<div id="html_a394760ea6554bd89198ee4f566ff8b7" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 9.0<br></div>`)[0];
+            popup_996fa08136a14a75a1a2ca67370e0570.setContent(html_a394760ea6554bd89198ee4f566ff8b7);
+        
+
+        marker_9f4f48d7bc20435dbecb3f12e8bd2ab3.bindPopup(popup_996fa08136a14a75a1a2ca67370e0570)
+        ;
+
+        
+    
+    
+            marker_9f4f48d7bc20435dbecb3f12e8bd2ab3.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91bd47b35eaa47dbb57051f7e1a283d3 = L.marker(
+                [-12.170571, -51.503153999999995],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_ff4e60cf8f5549469750602efdd50fdc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_91bd47b35eaa47dbb57051f7e1a283d3.setIcon(icon_ff4e60cf8f5549469750602efdd50fdc);
+        
+    
+        var popup_fcbe7fe83333491280ef0ee44689b3dd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fa244af20fe46ca8ee9726612d53ed2 = $(`<div id="html_4fa244af20fe46ca8ee9726612d53ed2" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 4.0<br></div>`)[0];
+            popup_fcbe7fe83333491280ef0ee44689b3dd.setContent(html_4fa244af20fe46ca8ee9726612d53ed2);
+        
+
+        marker_91bd47b35eaa47dbb57051f7e1a283d3.bindPopup(popup_fcbe7fe83333491280ef0ee44689b3dd)
+        ;
+
+        
+    
+    
+            marker_91bd47b35eaa47dbb57051f7e1a283d3.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3abdef5d06e744bbb7d036ea7b188a14 = L.marker(
+                [-12.147402, -57.983341],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_244b9c221955445eb19a5e59cfd6bbe9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3abdef5d06e744bbb7d036ea7b188a14.setIcon(icon_244b9c221955445eb19a5e59cfd6bbe9);
+        
+    
+        var popup_27d8692fbd6d4ca8baa83d2153df582b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9628d5455d2b472faa580d715dd67827 = $(`<div id="html_9628d5455d2b472faa580d715dd67827" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 5.0<br></div>`)[0];
+            popup_27d8692fbd6d4ca8baa83d2153df582b.setContent(html_9628d5455d2b472faa580d715dd67827);
+        
+
+        marker_3abdef5d06e744bbb7d036ea7b188a14.bindPopup(popup_27d8692fbd6d4ca8baa83d2153df582b)
+        ;
+
+        
+    
+    
+            marker_3abdef5d06e744bbb7d036ea7b188a14.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fdcd7d235b04d65ab899e68a31a71d9 = L.marker(
+                [-16.076414, -57.681798],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_eefc4c89afb3433b9446177d22331f64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2fdcd7d235b04d65ab899e68a31a71d9.setIcon(icon_eefc4c89afb3433b9446177d22331f64);
+        
+    
+        var popup_06044373ba524646a8b18110f92d4188 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_297caff5fde24ddb985b6bb46dc748d9 = $(`<div id="html_297caff5fde24ddb985b6bb46dc748d9" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 5.0<br></div>`)[0];
+            popup_06044373ba524646a8b18110f92d4188.setContent(html_297caff5fde24ddb985b6bb46dc748d9);
+        
+
+        marker_2fdcd7d235b04d65ab899e68a31a71d9.bindPopup(popup_06044373ba524646a8b18110f92d4188)
+        ;
+
+        
+    
+    
+            marker_2fdcd7d235b04d65ab899e68a31a71d9.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45c017c8c8654913b534b255fcd12b28 = L.marker(
+                [-13.658735, -57.890723],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_b8c0bbe727d54d8d836ec8d0a495f42e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_45c017c8c8654913b534b255fcd12b28.setIcon(icon_b8c0bbe727d54d8d836ec8d0a495f42e);
+        
+    
+        var popup_cd93a0df385d41538d70c179577aef5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fed8a72c7214cb495902fe525e3f641 = $(`<div id="html_8fed8a72c7214cb495902fe525e3f641" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 16.0<br></div>`)[0];
+            popup_cd93a0df385d41538d70c179577aef5e.setContent(html_8fed8a72c7214cb495902fe525e3f641);
+        
+
+        marker_45c017c8c8654913b534b255fcd12b28.bindPopup(popup_cd93a0df385d41538d70c179577aef5e)
+        ;
+
+        
+    
+    
+            marker_45c017c8c8654913b534b255fcd12b28.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db299cec226b4fef86e00150d004c45f = L.marker(
+                [-15.544978, -55.16258199999999],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_760daf782d154c05b37ee3ae7dbdacf6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_db299cec226b4fef86e00150d004c45f.setIcon(icon_760daf782d154c05b37ee3ae7dbdacf6);
+        
+    
+        var popup_7b0d33ed15bd4d98b0fb0ace664788be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a12a3b06a510485ea55c254dfa0c38a1 = $(`<div id="html_a12a3b06a510485ea55c254dfa0c38a1" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 32.0<br></div>`)[0];
+            popup_7b0d33ed15bd4d98b0fb0ace664788be.setContent(html_a12a3b06a510485ea55c254dfa0c38a1);
+        
+
+        marker_db299cec226b4fef86e00150d004c45f.bindPopup(popup_7b0d33ed15bd4d98b0fb0ace664788be)
+        ;
+
+        
+    
+    
+            marker_db299cec226b4fef86e00150d004c45f.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6742aa61460f402d885458e400506d25 = L.marker(
+                [-13.724224, -59.285807],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_392c560b677c410da0e8ae9c5631ac41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6742aa61460f402d885458e400506d25.setIcon(icon_392c560b677c410da0e8ae9c5631ac41);
+        
+    
+        var popup_ce9da02a29b44206a4dad74efa38ee23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9f03ea899214845ad36af6e2d12a254 = $(`<div id="html_e9f03ea899214845ad36af6e2d12a254" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_ce9da02a29b44206a4dad74efa38ee23.setContent(html_e9f03ea899214845ad36af6e2d12a254);
+        
+
+        marker_6742aa61460f402d885458e400506d25.bindPopup(popup_ce9da02a29b44206a4dad74efa38ee23)
+        ;
+
+        
+    
+    
+            marker_6742aa61460f402d885458e400506d25.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_111ac1ac94a849be84f470bd6c3736a6 = L.marker(
+                [-13.551502, -52.270493],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_1717f779bb2943a39720cca44d4a4a7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_111ac1ac94a849be84f470bd6c3736a6.setIcon(icon_1717f779bb2943a39720cca44d4a4a7f);
+        
+    
+        var popup_03acae832f4649fdbe233e215e46bbc6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd8ffe5d3c99425184252661fd648a33 = $(`<div id="html_cd8ffe5d3c99425184252661fd648a33" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_03acae832f4649fdbe233e215e46bbc6.setContent(html_cd8ffe5d3c99425184252661fd648a33);
+        
+
+        marker_111ac1ac94a849be84f470bd6c3736a6.bindPopup(popup_03acae832f4649fdbe233e215e46bbc6)
+        ;
+
+        
+    
+    
+            marker_111ac1ac94a849be84f470bd6c3736a6.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1738c913f1234d8c8373565c57b0e6ea = L.marker(
+                [-11.125060000000001, -58.608076000000004],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_8fb89c8ef1444b9aaaeeab45f28630ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1738c913f1234d8c8373565c57b0e6ea.setIcon(icon_8fb89c8ef1444b9aaaeeab45f28630ad);
+        
+    
+        var popup_9b78f6f5016e41d580a2a28dcc3f4ceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee0904a2bb01418898ac8c211b910f61 = $(`<div id="html_ee0904a2bb01418898ac8c211b910f61" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 3.0<br></div>`)[0];
+            popup_9b78f6f5016e41d580a2a28dcc3f4ceb.setContent(html_ee0904a2bb01418898ac8c211b910f61);
+        
+
+        marker_1738c913f1234d8c8373565c57b0e6ea.bindPopup(popup_9b78f6f5016e41d580a2a28dcc3f4ceb)
+        ;
+
+        
+    
+    
+            marker_1738c913f1234d8c8373565c57b0e6ea.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ba1123212454d09a6d5ddda15dae316 = L.marker(
+                [-15.464343, -55.74985699999999],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_21b6ec8371dc41359cb0a7d9002e9c0f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6ba1123212454d09a6d5ddda15dae316.setIcon(icon_21b6ec8371dc41359cb0a7d9002e9c0f);
+        
+    
+        var popup_f62cb674494c4e8ca8440ba4a9c500d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a51f85c226564761a8b096c2ecb6c33f = $(`<div id="html_a51f85c226564761a8b096c2ecb6c33f" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 4.0<br></div>`)[0];
+            popup_f62cb674494c4e8ca8440ba4a9c500d1.setContent(html_a51f85c226564761a8b096c2ecb6c33f);
+        
+
+        marker_6ba1123212454d09a6d5ddda15dae316.bindPopup(popup_f62cb674494c4e8ca8440ba4a9c500d1)
+        ;
+
+        
+    
+    
+            marker_6ba1123212454d09a6d5ddda15dae316.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0cc9812036894f3991f95ccd89b0155d = L.marker(
+                [-10.813452999999999, -55.460981000000004],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_41e6764d9fed4c849ac7e2ff21b63454 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_0cc9812036894f3991f95ccd89b0155d.setIcon(icon_41e6764d9fed4c849ac7e2ff21b63454);
+        
+    
+        var popup_66a82571caec4b13acb1669ab2941181 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cd6bc1691644cb2909e2525df900269 = $(`<div id="html_1cd6bc1691644cb2909e2525df900269" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 23.0<br></div>`)[0];
+            popup_66a82571caec4b13acb1669ab2941181.setContent(html_1cd6bc1691644cb2909e2525df900269);
+        
+
+        marker_0cc9812036894f3991f95ccd89b0155d.bindPopup(popup_66a82571caec4b13acb1669ab2941181)
+        ;
+
+        
+    
+    
+            marker_0cc9812036894f3991f95ccd89b0155d.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe1f1af0c4e341bebd61df42908dd6a7 = L.marker(
+                [-9.461207, -59.225189],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_211026ca34d44acc858c204109e23602 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_fe1f1af0c4e341bebd61df42908dd6a7.setIcon(icon_211026ca34d44acc858c204109e23602);
+        
+    
+        var popup_7149400a74df49a9a5a67989b4ef47b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59ae6dca45314c069af5c5c6aca3e9ff = $(`<div id="html_59ae6dca45314c069af5c5c6aca3e9ff" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_7149400a74df49a9a5a67989b4ef47b5.setContent(html_59ae6dca45314c069af5c5c6aca3e9ff);
+        
+
+        marker_fe1f1af0c4e341bebd61df42908dd6a7.bindPopup(popup_7149400a74df49a9a5a67989b4ef47b5)
+        ;
+
+        
+    
+    
+            marker_fe1f1af0c4e341bebd61df42908dd6a7.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93823ab058c648d9a060d9ec333b30f5 = L.marker(
+                [-13.661435999999998, -59.784751],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_2c6e672c1c9d4f7d8cf56de3ec0be689 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_93823ab058c648d9a060d9ec333b30f5.setIcon(icon_2c6e672c1c9d4f7d8cf56de3ec0be689);
+        
+    
+        var popup_bcc64aecb3334647b0da9af17586cceb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec9918905ba444c28754123f94d17dfb = $(`<div id="html_ec9918905ba444c28754123f94d17dfb" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 3.0<br></div>`)[0];
+            popup_bcc64aecb3334647b0da9af17586cceb.setContent(html_ec9918905ba444c28754123f94d17dfb);
+        
+
+        marker_93823ab058c648d9a060d9ec333b30f5.bindPopup(popup_bcc64aecb3334647b0da9af17586cceb)
+        ;
+
+        
+    
+    
+            marker_93823ab058c648d9a060d9ec333b30f5.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ae0af70aa824df497ff554dbf284d67 = L.marker(
+                [-10.643695, -51.569873],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_bf30939cfeae4c1b8980ab3418e76cb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9ae0af70aa824df497ff554dbf284d67.setIcon(icon_bf30939cfeae4c1b8980ab3418e76cb0);
+        
+    
+        var popup_3b38a4f5f89b4e4e9c05a11026a72cfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f93cd77fdd34ad9b7a38585a3828944 = $(`<div id="html_4f93cd77fdd34ad9b7a38585a3828944" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_3b38a4f5f89b4e4e9c05a11026a72cfa.setContent(html_4f93cd77fdd34ad9b7a38585a3828944);
+        
+
+        marker_9ae0af70aa824df497ff554dbf284d67.bindPopup(popup_3b38a4f5f89b4e4e9c05a11026a72cfa)
+        ;
+
+        
+    
+    
+            marker_9ae0af70aa824df497ff554dbf284d67.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad97e82f50704112a72fa9d7acc9a7fb = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_7f9bb98ff6b543049473d3eb11645e36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_ad97e82f50704112a72fa9d7acc9a7fb.setIcon(icon_7f9bb98ff6b543049473d3eb11645e36);
+        
+    
+        var popup_954d765d03e94f2290e9d275be870072 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4a640dcb6114e79967ae51f36411ad3 = $(`<div id="html_f4a640dcb6114e79967ae51f36411ad3" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 3.0<br></div>`)[0];
+            popup_954d765d03e94f2290e9d275be870072.setContent(html_f4a640dcb6114e79967ae51f36411ad3);
+        
+
+        marker_ad97e82f50704112a72fa9d7acc9a7fb.bindPopup(popup_954d765d03e94f2290e9d275be870072)
+        ;
+
+        
+    
+    
+            marker_ad97e82f50704112a72fa9d7acc9a7fb.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28259e99f09f4253945518c61d546c62 = L.marker(
+                [-9.856563000000001, -58.419231],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_fa21d318da0247659babbd203cfb2e4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_28259e99f09f4253945518c61d546c62.setIcon(icon_fa21d318da0247659babbd203cfb2e4a);
+        
+    
+        var popup_88745b81233a4e76a576f3d1fa54fc5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b29d9aecb70546e998af6c5f0b089ef7 = $(`<div id="html_b29d9aecb70546e998af6c5f0b089ef7" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_88745b81233a4e76a576f3d1fa54fc5e.setContent(html_b29d9aecb70546e998af6c5f0b089ef7);
+        
+
+        marker_28259e99f09f4253945518c61d546c62.bindPopup(popup_88745b81233a4e76a576f3d1fa54fc5e)
+        ;
+
+        
+    
+    
+            marker_28259e99f09f4253945518c61d546c62.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_317460606b4840ffb58b67eee7132f68 = L.marker(
+                [-15.600979, -56.097396999999994],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_64a6156010b541b682df88f4986ecdc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_317460606b4840ffb58b67eee7132f68.setIcon(icon_64a6156010b541b682df88f4986ecdc9);
+        
+    
+        var popup_5632e99f3c664eefa1cd57ae3d9470c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3510ec62abf04c37b9c64036511182d8 = $(`<div id="html_3510ec62abf04c37b9c64036511182d8" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>8.0<br>Suspeito 30.0<br>Descartado 45.0<br></div>`)[0];
+            popup_5632e99f3c664eefa1cd57ae3d9470c4.setContent(html_3510ec62abf04c37b9c64036511182d8);
+        
+
+        marker_317460606b4840ffb58b67eee7132f68.bindPopup(popup_5632e99f3c664eefa1cd57ae3d9470c4)
+        ;
+
+        
+    
+    
+            marker_317460606b4840ffb58b67eee7132f68.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f3599b03f3764a7890361d8c65e56798 = L.marker(
+                [-14.403673000000001, -56.436599],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_4e8f568d938d4690b69edea51f499c89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_f3599b03f3764a7890361d8c65e56798.setIcon(icon_4e8f568d938d4690b69edea51f499c89);
+        
+    
+        var popup_64b1a77978d545e482889571c89eb187 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_51c8c41f65fb40fb81334198a924d5d9 = $(`<div id="html_51c8c41f65fb40fb81334198a924d5d9" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_64b1a77978d545e482889571c89eb187.setContent(html_51c8c41f65fb40fb81334198a924d5d9);
+        
+
+        marker_f3599b03f3764a7890361d8c65e56798.bindPopup(popup_64b1a77978d545e482889571c89eb187)
+        ;
+
+        
+    
+    
+            marker_f3599b03f3764a7890361d8c65e56798.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99875945822e4a3ca3f12b45f7e104b1 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_a3ebaa88a0db42b89ff96ec653343cdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_99875945822e4a3ca3f12b45f7e104b1.setIcon(icon_a3ebaa88a0db42b89ff96ec653343cdd);
+        
+    
+        var popup_64eeba4dac514a5ea0a6e732bec7579f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a12964193c8a4346a13f9907faf8fc9c = $(`<div id="html_a12964193c8a4346a13f9907faf8fc9c" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 0<br></div>`)[0];
+            popup_64eeba4dac514a5ea0a6e732bec7579f.setContent(html_a12964193c8a4346a13f9907faf8fc9c);
+        
+
+        marker_99875945822e4a3ca3f12b45f7e104b1.bindPopup(popup_64eeba4dac514a5ea0a6e732bec7579f)
+        ;
+
+        
+    
+    
+            marker_99875945822e4a3ca3f12b45f7e104b1.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0f95a924234a43bf82be06b0462708d4 = L.marker(
+                [-9.962182, -54.912126],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_e3a4e03145be4c84991881b370e62993 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0f95a924234a43bf82be06b0462708d4.setIcon(icon_e3a4e03145be4c84991881b370e62993);
+        
+    
+        var popup_2af5230afa1a4a2894185f1728e0c544 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c252b665e178472696fe7f6257ef7254 = $(`<div id="html_c252b665e178472696fe7f6257ef7254" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 5.0<br></div>`)[0];
+            popup_2af5230afa1a4a2894185f1728e0c544.setContent(html_c252b665e178472696fe7f6257ef7254);
+        
+
+        marker_0f95a924234a43bf82be06b0462708d4.bindPopup(popup_2af5230afa1a4a2894185f1728e0c544)
+        ;
+
+        
+    
+    
+            marker_0f95a924234a43bf82be06b0462708d4.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44a89fdea1ee4b52a82a947a9403c610 = L.marker(
+                [-16.345979, -53.757490000000004],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_f0f550721838413aa9517ceb00790493 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_44a89fdea1ee4b52a82a947a9403c610.setIcon(icon_f0f550721838413aa9517ceb00790493);
+        
+    
+        var popup_e0817fee1b7c4cd480a6aae54dafe874 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73adfd3d440f4213b4f158b705af7d20 = $(`<div id="html_73adfd3d440f4213b4f158b705af7d20" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_e0817fee1b7c4cd480a6aae54dafe874.setContent(html_73adfd3d440f4213b4f158b705af7d20);
+        
+
+        marker_44a89fdea1ee4b52a82a947a9403c610.bindPopup(popup_e0817fee1b7c4cd480a6aae54dafe874)
+        ;
+
+        
+    
+    
+            marker_44a89fdea1ee4b52a82a947a9403c610.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd6f4dfef52545bd970458c1bc7e1649 = L.marker(
+                [-12.240162, -56.145936],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_15e033107566413689249432bc604f61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_cd6f4dfef52545bd970458c1bc7e1649.setIcon(icon_15e033107566413689249432bc604f61);
+        
+    
+        var popup_b0d49e507d2b400e8dbb297bb5bd7ba5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31ff122e1d5944a19306acbd0df3b52b = $(`<div id="html_31ff122e1d5944a19306acbd0df3b52b" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_b0d49e507d2b400e8dbb297bb5bd7ba5.setContent(html_31ff122e1d5944a19306acbd0df3b52b);
+        
+
+        marker_cd6f4dfef52545bd970458c1bc7e1649.bindPopup(popup_b0d49e507d2b400e8dbb297bb5bd7ba5)
+        ;
+
+        
+    
+    
+            marker_cd6f4dfef52545bd970458c1bc7e1649.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1feee19f0ef340af80ea4b40d150beb0 = L.marker(
+                [-12.166012, -56.684065000000004],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_04f59a2be87c45a6ad44c11794490010 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1feee19f0ef340af80ea4b40d150beb0.setIcon(icon_04f59a2be87c45a6ad44c11794490010);
+        
+    
+        var popup_53a630485d73404b8acbddc05888987d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f6b7183ee944a55b58338f6f6d445bc = $(`<div id="html_2f6b7183ee944a55b58338f6f6d445bc" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_53a630485d73404b8acbddc05888987d.setContent(html_2f6b7183ee944a55b58338f6f6d445bc);
+        
+
+        marker_1feee19f0ef340af80ea4b40d150beb0.bindPopup(popup_53a630485d73404b8acbddc05888987d)
+        ;
+
+        
+    
+    
+            marker_1feee19f0ef340af80ea4b40d150beb0.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_314da532182d4d1eae4c38cd95df2306 = L.marker(
+                [-11.061423, -55.276574],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_83fd8050cffc4d39abc5b44d3d7bc4eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_314da532182d4d1eae4c38cd95df2306.setIcon(icon_83fd8050cffc4d39abc5b44d3d7bc4eb);
+        
+    
+        var popup_b463321041e944c5bb19065744c78e52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ab666507ba9e4e9ea7177118591ec5c3 = $(`<div id="html_ab666507ba9e4e9ea7177118591ec5c3" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_b463321041e944c5bb19065744c78e52.setContent(html_ab666507ba9e4e9ea7177118591ec5c3);
+        
+
+        marker_314da532182d4d1eae4c38cd95df2306.bindPopup(popup_b463321041e944c5bb19065744c78e52)
+        ;
+
+        
+    
+    
+            marker_314da532182d4d1eae4c38cd95df2306.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e797fed8cfa499f9a6a76af67c246f7 = L.marker(
+                [-17.214693, -54.142214],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_e8c956863e41472f98534421a9f937cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8e797fed8cfa499f9a6a76af67c246f7.setIcon(icon_e8c956863e41472f98534421a9f937cc);
+        
+    
+        var popup_e1684aec005247d4b80a535e4d73f36c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5a192cfc15b4df28fdfe7b15b985110 = $(`<div id="html_e5a192cfc15b4df28fdfe7b15b985110" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_e1684aec005247d4b80a535e4d73f36c.setContent(html_e5a192cfc15b4df28fdfe7b15b985110);
+        
+
+        marker_8e797fed8cfa499f9a6a76af67c246f7.bindPopup(popup_e1684aec005247d4b80a535e4d73f36c)
+        ;
+
+        
+    
+    
+            marker_8e797fed8cfa499f9a6a76af67c246f7.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a48ed8c32b84a07aba2cbe833a1efe0 = L.marker(
+                [-11.263925, -57.524443000000005],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_b897ca9a9b6d49219cace79a4dd1d91e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1a48ed8c32b84a07aba2cbe833a1efe0.setIcon(icon_b897ca9a9b6d49219cace79a4dd1d91e);
+        
+    
+        var popup_14776eb37bca4103a61768446308b01b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e02c9d193fca4ca58a0c58c4a3bab01c = $(`<div id="html_e02c9d193fca4ca58a0c58c4a3bab01c" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_14776eb37bca4103a61768446308b01b.setContent(html_e02c9d193fca4ca58a0c58c4a3bab01c);
+        
+
+        marker_1a48ed8c32b84a07aba2cbe833a1efe0.bindPopup(popup_14776eb37bca4103a61768446308b01b)
+        ;
+
+        
+    
+    
+            marker_1a48ed8c32b84a07aba2cbe833a1efe0.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4dafb43c2f364398af013350a55bd33d = L.marker(
+                [-11.372752, -58.748314],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_c2ef4283f8394529834e099e2a701ec5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4dafb43c2f364398af013350a55bd33d.setIcon(icon_c2ef4283f8394529834e099e2a701ec5);
+        
+    
+        var popup_2eebb1fce9794d74a23205fa2ea9cd10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0848eb67a8f7469d991b0847afd2b82d = $(`<div id="html_0848eb67a8f7469d991b0847afd2b82d" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_2eebb1fce9794d74a23205fa2ea9cd10.setContent(html_0848eb67a8f7469d991b0847afd2b82d);
+        
+
+        marker_4dafb43c2f364398af013350a55bd33d.bindPopup(popup_2eebb1fce9794d74a23205fa2ea9cd10)
+        ;
+
+        
+    
+    
+            marker_4dafb43c2f364398af013350a55bd33d.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bb40fc95261d41d0a5c2b77b7295758b = L.marker(
+                [-10.317805, -58.359179000000005],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_16b2fe61e20741a2afe008780a648899 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_bb40fc95261d41d0a5c2b77b7295758b.setIcon(icon_16b2fe61e20741a2afe008780a648899);
+        
+    
+        var popup_a324f9612818462aa92e4c619a5bbaa5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2034e0dbf9e40d4b6f3075c061634e4 = $(`<div id="html_a2034e0dbf9e40d4b6f3075c061634e4" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_a324f9612818462aa92e4c619a5bbaa5.setContent(html_a2034e0dbf9e40d4b6f3075c061634e4);
+        
+
+        marker_bb40fc95261d41d0a5c2b77b7295758b.bindPopup(popup_a324f9612818462aa92e4c619a5bbaa5)
+        ;
+
+        
+    
+    
+            marker_bb40fc95261d41d0a5c2b77b7295758b.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ecfca9e90264070b35ccae5b709eee6 = L.marker(
+                [-13.058796000000001, -55.904202000000005],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_aca77e4fe7c540c99cd7dd135c278b05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5ecfca9e90264070b35ccae5b709eee6.setIcon(icon_aca77e4fe7c540c99cd7dd135c278b05);
+        
+    
+        var popup_b6dc82dfaa224bcbba5dcb1761bfe165 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e26cf74beda47e0a9fb409ceba8cbbc = $(`<div id="html_0e26cf74beda47e0a9fb409ceba8cbbc" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 7.0<br></div>`)[0];
+            popup_b6dc82dfaa224bcbba5dcb1761bfe165.setContent(html_0e26cf74beda47e0a9fb409ceba8cbbc);
+        
+
+        marker_5ecfca9e90264070b35ccae5b709eee6.bindPopup(popup_b6dc82dfaa224bcbba5dcb1761bfe165)
+        ;
+
+        
+    
+    
+            marker_5ecfca9e90264070b35ccae5b709eee6.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ef3f6ea2fe342eb83f75411a452d130 = L.marker(
+                [-15.003938, -59.947256],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_45d9b37957ab486397f437b3d0793949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6ef3f6ea2fe342eb83f75411a452d130.setIcon(icon_45d9b37957ab486397f437b3d0793949);
+        
+    
+        var popup_e9230482db8f490e957a62f76da3abb9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76b285f13e1248d8a503ffeab47386dd = $(`<div id="html_76b285f13e1248d8a503ffeab47386dd" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 14.0<br></div>`)[0];
+            popup_e9230482db8f490e957a62f76da3abb9.setContent(html_76b285f13e1248d8a503ffeab47386dd);
+        
+
+        marker_6ef3f6ea2fe342eb83f75411a452d130.bindPopup(popup_e9230482db8f490e957a62f76da3abb9)
+        ;
+
+        
+    
+    
+            marker_6ef3f6ea2fe342eb83f75411a452d130.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b0d0d24876e4108ac91c26937f8f0f3 = L.marker(
+                [-11.046259, -54.437681000000005],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_a297ef14e30142299d607643baaaf50b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8b0d0d24876e4108ac91c26937f8f0f3.setIcon(icon_a297ef14e30142299d607643baaaf50b);
+        
+    
+        var popup_454c119342c94e5ab4e482df9cae9d38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4785413989274ab19ccd2853fab4e918 = $(`<div id="html_4785413989274ab19ccd2853fab4e918" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_454c119342c94e5ab4e482df9cae9d38.setContent(html_4785413989274ab19ccd2853fab4e918);
+        
+
+        marker_8b0d0d24876e4108ac91c26937f8f0f3.bindPopup(popup_454c119342c94e5ab4e482df9cae9d38)
+        ;
+
+        
+    
+    
+            marker_8b0d0d24876e4108ac91c26937f8f0f3.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3330acf375c2482490135335dad30d1f = L.marker(
+                [-10.182065, -54.94667],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_80fc9bb3193444b19ffad11be479e3a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_3330acf375c2482490135335dad30d1f.setIcon(icon_80fc9bb3193444b19ffad11be479e3a0);
+        
+    
+        var popup_922d02b8ce30418a8403b239c90f5567 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e6a605e02fbf454e90cb563f6d4d51b6 = $(`<div id="html_e6a605e02fbf454e90cb563f6d4d51b6" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 6.0<br></div>`)[0];
+            popup_922d02b8ce30418a8403b239c90f5567.setContent(html_e6a605e02fbf454e90cb563f6d4d51b6);
+        
+
+        marker_3330acf375c2482490135335dad30d1f.bindPopup(popup_922d02b8ce30418a8403b239c90f5567)
+        ;
+
+        
+    
+    
+            marker_3330acf375c2482490135335dad30d1f.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36f64c72716a4116ae171ce237704c07 = L.marker(
+                [0.0, 0.0],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_642b182c565243d79562223238819e4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_36f64c72716a4116ae171ce237704c07.setIcon(icon_642b182c565243d79562223238819e4a);
+        
+    
+        var popup_6d8c506b77c7424c9db031d937227af5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cbb09749366487dae64c2b18f3dd5d9 = $(`<div id="html_7cbb09749366487dae64c2b18f3dd5d9" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_6d8c506b77c7424c9db031d937227af5.setContent(html_7cbb09749366487dae64c2b18f3dd5d9);
+        
+
+        marker_36f64c72716a4116ae171ce237704c07.bindPopup(popup_6d8c506b77c7424c9db031d937227af5)
+        ;
+
+        
+    
+    
+            marker_36f64c72716a4116ae171ce237704c07.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b2d2462b7d14a749b6a09b8530f89b9 = L.marker(
+                [-15.772023999999998, -56.343242000000004],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_7bf9e62d419d4697857b69f6c96328d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_1b2d2462b7d14a749b6a09b8530f89b9.setIcon(icon_7bf9e62d419d4697857b69f6c96328d4);
+        
+    
+        var popup_8f50ed8a9894412fa223b3c06ebde1bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7707ffa03f743c38aa1071506870003 = $(`<div id="html_a7707ffa03f743c38aa1071506870003" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 4.0<br></div>`)[0];
+            popup_8f50ed8a9894412fa223b3c06ebde1bc.setContent(html_a7707ffa03f743c38aa1071506870003);
+        
+
+        marker_1b2d2462b7d14a749b6a09b8530f89b9.bindPopup(popup_8f50ed8a9894412fa223b3c06ebde1bc)
+        ;
+
+        
+    
+    
+            marker_1b2d2462b7d14a749b6a09b8530f89b9.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4105d5541d9240afb04b051dd0d2db71 = L.marker(
+                [-9.808959, -57.864686999999996],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_f496a95f25f34572989aa1efeebb3bd8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_4105d5541d9240afb04b051dd0d2db71.setIcon(icon_f496a95f25f34572989aa1efeebb3bd8);
+        
+    
+        var popup_abb0994b334a4abd9d9a127f16888ef4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a969d2350f2482ca3249f887763b4d1 = $(`<div id="html_6a969d2350f2482ca3249f887763b4d1" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 6.0<br></div>`)[0];
+            popup_abb0994b334a4abd9d9a127f16888ef4.setContent(html_6a969d2350f2482ca3249f887763b4d1);
+        
+
+        marker_4105d5541d9240afb04b051dd0d2db71.bindPopup(popup_abb0994b334a4abd9d9a127f16888ef4)
+        ;
+
+        
+    
+    
+            marker_4105d5541d9240afb04b051dd0d2db71.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59c12b56000f4f088c08f3be838bf4da = L.marker(
+                [-13.837389000000002, -56.074316],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_a210278a3620456a9e2fba9eb1247339 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_59c12b56000f4f088c08f3be838bf4da.setIcon(icon_a210278a3620456a9e2fba9eb1247339);
+        
+    
+        var popup_ae27ad78a9de45bcb35427d3407cdbbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_364fbc433e914d73b7d14cf998c4be79 = $(`<div id="html_364fbc433e914d73b7d14cf998c4be79" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 7.0<br></div>`)[0];
+            popup_ae27ad78a9de45bcb35427d3407cdbbf.setContent(html_364fbc433e914d73b7d14cf998c4be79);
+        
+
+        marker_59c12b56000f4f088c08f3be838bf4da.bindPopup(popup_ae27ad78a9de45bcb35427d3407cdbbf)
+        ;
+
+        
+    
+    
+            marker_59c12b56000f4f088c08f3be838bf4da.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_befe3a115e234d338bd14737b22593fd = L.marker(
+                [-14.788947, -57.288613],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_1366a63f1c674118a1aec5050ef3f3fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_befe3a115e234d338bd14737b22593fd.setIcon(icon_1366a63f1c674118a1aec5050ef3f3fd);
+        
+    
+        var popup_cee4bf07fd2344f7bbabef9b76dd5d2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25bc49b6450e4ca39aafe1385bdef167 = $(`<div id="html_25bc49b6450e4ca39aafe1385bdef167" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_cee4bf07fd2344f7bbabef9b76dd5d2d.setContent(html_25bc49b6450e4ca39aafe1385bdef167);
+        
+
+        marker_befe3a115e234d338bd14737b22593fd.bindPopup(popup_cee4bf07fd2344f7bbabef9b76dd5d2d)
+        ;
+
+        
+    
+    
+            marker_befe3a115e234d338bd14737b22593fd.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b845bb529d07470e9da7bf178ea39390 = L.marker(
+                [-12.983411, -55.25555799999999],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_65386d16bbc8462282bad9cc5db8fed4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_b845bb529d07470e9da7bf178ea39390.setIcon(icon_65386d16bbc8462282bad9cc5db8fed4);
+        
+    
+        var popup_8c1c5253d29141dda275ee6bb8d907ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1bde43b9d33d41c6bc057ad23859d3c8 = $(`<div id="html_1bde43b9d33d41c6bc057ad23859d3c8" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_8c1c5253d29141dda275ee6bb8d907ad.setContent(html_1bde43b9d33d41c6bc057ad23859d3c8);
+        
+
+        marker_b845bb529d07470e9da7bf178ea39390.bindPopup(popup_8c1c5253d29141dda275ee6bb8d907ad)
+        ;
+
+        
+    
+    
+            marker_b845bb529d07470e9da7bf178ea39390.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a24faf5c750b4b8f9048d57fbe02c2c2 = L.marker(
+                [-14.677063, -52.350234],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_25b1f85c4fe24da4b06e0c019e95befb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a24faf5c750b4b8f9048d57fbe02c2c2.setIcon(icon_25b1f85c4fe24da4b06e0c019e95befb);
+        
+    
+        var popup_fee7ef8c2c2846b09d4c0517c9fcc82e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9dd7cccf12bc40e183d840225755e150 = $(`<div id="html_9dd7cccf12bc40e183d840225755e150" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 0<br></div>`)[0];
+            popup_fee7ef8c2c2846b09d4c0517c9fcc82e.setContent(html_9dd7cccf12bc40e183d840225755e150);
+        
+
+        marker_a24faf5c750b4b8f9048d57fbe02c2c2.bindPopup(popup_fee7ef8c2c2846b09d4c0517c9fcc82e)
+        ;
+
+        
+    
+    
+            marker_a24faf5c750b4b8f9048d57fbe02c2c2.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5db5584157404b9289c60a76e14c8d44 = L.marker(
+                [-9.956159, -55.20295],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_5c3a6f5961f949a6874daf2dea93240f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5db5584157404b9289c60a76e14c8d44.setIcon(icon_5c3a6f5961f949a6874daf2dea93240f);
+        
+    
+        var popup_38d5cee42c704171bf8192640c4bbc3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5593bcaa42ef497baf2f3eaa243108b1 = $(`<div id="html_5593bcaa42ef497baf2f3eaa243108b1" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_38d5cee42c704171bf8192640c4bbc3a.setContent(html_5593bcaa42ef497baf2f3eaa243108b1);
+        
+
+        marker_5db5584157404b9289c60a76e14c8d44.bindPopup(popup_38d5cee42c704171bf8192640c4bbc3a)
+        ;
+
+        
+    
+    
+            marker_5db5584157404b9289c60a76e14c8d44.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_163f60d8e3f44c99a3a1e368e8d46b64 = L.marker(
+                [-14.905406, -53.019362],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_af3d75e2fdb84715bfd2261036e6be31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_163f60d8e3f44c99a3a1e368e8d46b64.setIcon(icon_af3d75e2fdb84715bfd2261036e6be31);
+        
+    
+        var popup_18320a4f259f4801ae31b77701c919af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_777a656535644057bbc7a99301fb3478 = $(`<div id="html_777a656535644057bbc7a99301fb3478" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_18320a4f259f4801ae31b77701c919af.setContent(html_777a656535644057bbc7a99301fb3478);
+        
+
+        marker_163f60d8e3f44c99a3a1e368e8d46b64.bindPopup(popup_18320a4f259f4801ae31b77701c919af)
+        ;
+
+        
+    
+    
+            marker_163f60d8e3f44c99a3a1e368e8d46b64.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3a98c79f1754c87b5fd4860fbfa06c0 = L.marker(
+                [-9.658348, -56.478623],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_09f3e205c66a4e1cbd1f0308442aeb19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_c3a98c79f1754c87b5fd4860fbfa06c0.setIcon(icon_09f3e205c66a4e1cbd1f0308442aeb19);
+        
+    
+        var popup_28a30ee94e18417a836fdb8eec79ffee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0d78a50315c94054bc715f83735ebc10 = $(`<div id="html_0d78a50315c94054bc715f83735ebc10" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_28a30ee94e18417a836fdb8eec79ffee.setContent(html_0d78a50315c94054bc715f83735ebc10);
+        
+
+        marker_c3a98c79f1754c87b5fd4860fbfa06c0.bindPopup(popup_28a30ee94e18417a836fdb8eec79ffee)
+        ;
+
+        
+    
+    
+            marker_c3a98c79f1754c87b5fd4860fbfa06c0.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_738aa10c316842d49447f8c42705951e = L.marker(
+                [-14.426475, -54.052426000000004],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_ed5fee9d0eee4ca4af9549ad625dcd13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_738aa10c316842d49447f8c42705951e.setIcon(icon_ed5fee9d0eee4ca4af9549ad625dcd13);
+        
+    
+        var popup_cf51069cd0cc4fa6b58ded07b41c04d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2b36af485d447d1b112d5b1174af3c4 = $(`<div id="html_f2b36af485d447d1b112d5b1174af3c4" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 7.0<br></div>`)[0];
+            popup_cf51069cd0cc4fa6b58ded07b41c04d7.setContent(html_f2b36af485d447d1b112d5b1174af3c4);
+        
+
+        marker_738aa10c316842d49447f8c42705951e.bindPopup(popup_cf51069cd0cc4fa6b58ded07b41c04d7)
+        ;
+
+        
+    
+    
+            marker_738aa10c316842d49447f8c42705951e.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af126453b8a1493a987d3d1cda5c548f = L.marker(
+                [-16.624505, -54.47218],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_4ed7ee1e81f842e5964cbd5553eac5cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_af126453b8a1493a987d3d1cda5c548f.setIcon(icon_4ed7ee1e81f842e5964cbd5553eac5cd);
+        
+    
+        var popup_cdb14a5729c14ba8ba7531d6482e0af7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_452ace5466e74cd4b7dd87bbdb3f2ec1 = $(`<div id="html_452ace5466e74cd4b7dd87bbdb3f2ec1" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 3.0<br></div>`)[0];
+            popup_cdb14a5729c14ba8ba7531d6482e0af7.setContent(html_452ace5466e74cd4b7dd87bbdb3f2ec1);
+        
+
+        marker_af126453b8a1493a987d3d1cda5c548f.bindPopup(popup_cdb14a5729c14ba8ba7531d6482e0af7)
+        ;
+
+        
+    
+    
+            marker_af126453b8a1493a987d3d1cda5c548f.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5d013de0f8ad4753a2e90511362eaee7 = L.marker(
+                [-10.226168, -54.979376],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_aa57938dceb5464b8190caba5e6b3cf0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_5d013de0f8ad4753a2e90511362eaee7.setIcon(icon_aa57938dceb5464b8190caba5e6b3cf0);
+        
+    
+        var popup_ab6efcc042ce492fbfccb8222f9375b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9693d9ac654640c8ac6570253129b2b1 = $(`<div id="html_9693d9ac654640c8ac6570253129b2b1" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 6.0<br></div>`)[0];
+            popup_ab6efcc042ce492fbfccb8222f9375b3.setContent(html_9693d9ac654640c8ac6570253129b2b1);
+        
+
+        marker_5d013de0f8ad4753a2e90511362eaee7.bindPopup(popup_ab6efcc042ce492fbfccb8222f9375b3)
+        ;
+
+        
+    
+    
+            marker_5d013de0f8ad4753a2e90511362eaee7.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_760a4e33f1fa4f2cb496b89dd3386294 = L.marker(
+                [-16.266037, -56.626098999999996],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_060c7230a29243f5a3c86c1c2dd2641a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_760a4e33f1fa4f2cb496b89dd3386294.setIcon(icon_060c7230a29243f5a3c86c1c2dd2641a);
+        
+    
+        var popup_583166fabfe34e7fbdaa69c6bdca1718 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9edb5600370f4853a371052ba430bdaa = $(`<div id="html_9edb5600370f4853a371052ba430bdaa" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 1.0<br></div>`)[0];
+            popup_583166fabfe34e7fbdaa69c6bdca1718.setContent(html_9edb5600370f4853a371052ba430bdaa);
+        
+
+        marker_760a4e33f1fa4f2cb496b89dd3386294.bindPopup(popup_583166fabfe34e7fbdaa69c6bdca1718)
+        ;
+
+        
+    
+    
+            marker_760a4e33f1fa4f2cb496b89dd3386294.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ba161f2f24142d782245daefce91a3e = L.marker(
+                [-15.221867999999999, -59.343543999999994],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_3fe9d3b14a014d4ab81e1f424e723478 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5ba161f2f24142d782245daefce91a3e.setIcon(icon_3fe9d3b14a014d4ab81e1f424e723478);
+        
+    
+        var popup_a353335affd641cdb68f7e3a1b624a02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9217184d7c5a40e38f4759e30a603fd2 = $(`<div id="html_9217184d7c5a40e38f4759e30a603fd2" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 6.0<br></div>`)[0];
+            popup_a353335affd641cdb68f7e3a1b624a02.setContent(html_9217184d7c5a40e38f4759e30a603fd2);
+        
+
+        marker_5ba161f2f24142d782245daefce91a3e.bindPopup(popup_a353335affd641cdb68f7e3a1b624a02)
+        ;
+
+        
+    
+    
+            marker_5ba161f2f24142d782245daefce91a3e.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9029241527044dad855751ae28e485dc = L.marker(
+                [-10.876126, -51.635731],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_bd3259aee4ec43cd9fda496e484c819b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9029241527044dad855751ae28e485dc.setIcon(icon_bd3259aee4ec43cd9fda496e484c819b);
+        
+    
+        var popup_63d0ae22324a4f24b2b17f1cc3c6dc6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81e81c4b4cdf460393dd19d6849ce5f4 = $(`<div id="html_81e81c4b4cdf460393dd19d6849ce5f4" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_63d0ae22324a4f24b2b17f1cc3c6dc6f.setContent(html_81e81c4b4cdf460393dd19d6849ce5f4);
+        
+
+        marker_9029241527044dad855751ae28e485dc.bindPopup(popup_63d0ae22324a4f24b2b17f1cc3c6dc6f)
+        ;
+
+        
+    
+    
+            marker_9029241527044dad855751ae28e485dc.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c935f31b4914758be25db3c6f5e860d = L.marker(
+                [-15.323517, -57.220403000000005],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_389699361bc74fb293cdda8416bc8c1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6c935f31b4914758be25db3c6f5e860d.setIcon(icon_389699361bc74fb293cdda8416bc8c1e);
+        
+    
+        var popup_f71c4ba23145463db13561079a8b30fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d99fc464e5fa4d5a88c084958f09d02e = $(`<div id="html_d99fc464e5fa4d5a88c084958f09d02e" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_f71c4ba23145463db13561079a8b30fc.setContent(html_d99fc464e5fa4d5a88c084958f09d02e);
+        
+
+        marker_6c935f31b4914758be25db3c6f5e860d.bindPopup(popup_f71c4ba23145463db13561079a8b30fc)
+        ;
+
+        
+    
+    
+            marker_6c935f31b4914758be25db3c6f5e860d.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d84a717774e647cca0d827848a9dd94e = L.marker(
+                [-15.841012, -54.388276],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_c4bf06f65ba44a74b87164c2a7fe2157 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d84a717774e647cca0d827848a9dd94e.setIcon(icon_c4bf06f65ba44a74b87164c2a7fe2157);
+        
+    
+        var popup_951b079bce8b4ef1bd1c98cd6ff4bef7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80cf577533cf4af3bf77425858080ef2 = $(`<div id="html_80cf577533cf4af3bf77425858080ef2" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_951b079bce8b4ef1bd1c98cd6ff4bef7.setContent(html_80cf577533cf4af3bf77425858080ef2);
+        
+
+        marker_d84a717774e647cca0d827848a9dd94e.bindPopup(popup_951b079bce8b4ef1bd1c98cd6ff4bef7)
+        ;
+
+        
+    
+    
+            marker_d84a717774e647cca0d827848a9dd94e.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4ae38b6815d496c9cb0cec87954cfe6 = L.marker(
+                [-15.543970999999999, -54.28105600000001],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_f68ea4cd7c5e44a19eb2a835e720260c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c4ae38b6815d496c9cb0cec87954cfe6.setIcon(icon_f68ea4cd7c5e44a19eb2a835e720260c);
+        
+    
+        var popup_a4b6214cfd7643dc803cb480a70d7f90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d35128f39f9b47bd99e8ed3776feb71e = $(`<div id="html_d35128f39f9b47bd99e8ed3776feb71e" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 11.0<br></div>`)[0];
+            popup_a4b6214cfd7643dc803cb480a70d7f90.setContent(html_d35128f39f9b47bd99e8ed3776feb71e);
+        
+
+        marker_c4ae38b6815d496c9cb0cec87954cfe6.bindPopup(popup_a4b6214cfd7643dc803cb480a70d7f90)
+        ;
+
+        
+    
+    
+            marker_c4ae38b6815d496c9cb0cec87954cfe6.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0c9053b7a947436198d6302204a4aecf = L.marker(
+                [-12.609294, -52.182102],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_7e520d219f8f4e17b4ecd930d3e06846 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0c9053b7a947436198d6302204a4aecf.setIcon(icon_7e520d219f8f4e17b4ecd930d3e06846);
+        
+    
+        var popup_3ac6d33ab05245aa986ff7cc32044188 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6f7952134e54c63b389a8c86228a1b2 = $(`<div id="html_b6f7952134e54c63b389a8c86228a1b2" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 1.0<br></div>`)[0];
+            popup_3ac6d33ab05245aa986ff7cc32044188.setContent(html_b6f7952134e54c63b389a8c86228a1b2);
+        
+
+        marker_0c9053b7a947436198d6302204a4aecf.bindPopup(popup_3ac6d33ab05245aa986ff7cc32044188)
+        ;
+
+        
+    
+    
+            marker_0c9053b7a947436198d6302204a4aecf.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ebc08553c8f4c4eb63472751d16f6c8 = L.marker(
+                [-13.439817999999999, -56.721841000000005],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_ee282bf13cfa485da54cfc4623448541 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_6ebc08553c8f4c4eb63472751d16f6c8.setIcon(icon_ee282bf13cfa485da54cfc4623448541);
+        
+    
+        var popup_eadb26f645e24f05922f29a5aa12ca83 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_26342d3c26984c38aeb2873f069b69c8 = $(`<div id="html_26342d3c26984c38aeb2873f069b69c8" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 6.0<br></div>`)[0];
+            popup_eadb26f645e24f05922f29a5aa12ca83.setContent(html_26342d3c26984c38aeb2873f069b69c8);
+        
+
+        marker_6ebc08553c8f4c4eb63472751d16f6c8.bindPopup(popup_eadb26f645e24f05922f29a5aa12ca83)
+        ;
+
+        
+    
+    
+            marker_6ebc08553c8f4c4eb63472751d16f6c8.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_da627115ee684dee9a649aa80dcd652e = L.marker(
+                [-10.837556, -61.469737],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_47cbe85f90bb4a6385e713f35e3ebc67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_da627115ee684dee9a649aa80dcd652e.setIcon(icon_47cbe85f90bb4a6385e713f35e3ebc67);
+        
+    
+        var popup_1ab6b7d1bd0b4b93bc623f6b543bea7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e3a9875e4754f4297acbdb38d2109a8 = $(`<div id="html_6e3a9875e4754f4297acbdb38d2109a8" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_1ab6b7d1bd0b4b93bc623f6b543bea7d.setContent(html_6e3a9875e4754f4297acbdb38d2109a8);
+        
+
+        marker_da627115ee684dee9a649aa80dcd652e.bindPopup(popup_1ab6b7d1bd0b4b93bc623f6b543bea7d)
+        ;
+
+        
+    
+    
+            marker_da627115ee684dee9a649aa80dcd652e.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47ca6c623ead4a8ebd6e5577b35b4a9f = L.marker(
+                [-16.467251, -54.637173],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_d4a3a03d532441c0b02c73c3530efa8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_47ca6c623ead4a8ebd6e5577b35b4a9f.setIcon(icon_d4a3a03d532441c0b02c73c3530efa8b);
+        
+    
+        var popup_4ddf41169fcf40b8a19226446c7f7d75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4e7e881ae0b3477ba4ee60867b1af92e = $(`<div id="html_4e7e881ae0b3477ba4ee60867b1af92e" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 42.0<br></div>`)[0];
+            popup_4ddf41169fcf40b8a19226446c7f7d75.setContent(html_4e7e881ae0b3477ba4ee60867b1af92e);
+        
+
+        marker_47ca6c623ead4a8ebd6e5577b35b4a9f.bindPopup(popup_4ddf41169fcf40b8a19226446c7f7d75)
+        ;
+
+        
+    
+    
+            marker_47ca6c623ead4a8ebd6e5577b35b4a9f.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7325f6648306426e8751a09f43f45456 = L.marker(
+                [-14.825938, -56.42357],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_16a768c4dd0c4be2855ffd9e97e464c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7325f6648306426e8751a09f43f45456.setIcon(icon_16a768c4dd0c4be2855ffd9e97e464c4);
+        
+    
+        var popup_4e6e2f97ac014e99ac89c814c53d387c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91f7c3b5208a44f298a73025bd34f1bc = $(`<div id="html_91f7c3b5208a44f298a73025bd34f1bc" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 7.0<br></div>`)[0];
+            popup_4e6e2f97ac014e99ac89c814c53d387c.setContent(html_91f7c3b5208a44f298a73025bd34f1bc);
+        
+
+        marker_7325f6648306426e8751a09f43f45456.bindPopup(popup_4e6e2f97ac014e99ac89c814c53d387c)
+        ;
+
+        
+    
+    
+            marker_7325f6648306426e8751a09f43f45456.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23a2220c1cd64939a8109db21cd31ae4 = L.marker(
+                [-10.153161, -52.395348],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_42ebe2ec932e495b90adcded96be39cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_23a2220c1cd64939a8109db21cd31ae4.setIcon(icon_42ebe2ec932e495b90adcded96be39cd);
+        
+    
+        var popup_00fb54ff2c0240068da5adbbc29239f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e4142a71e27449e9c97345963906d17 = $(`<div id="html_5e4142a71e27449e9c97345963906d17" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_00fb54ff2c0240068da5adbbc29239f3.setContent(html_5e4142a71e27449e9c97345963906d17);
+        
+
+        marker_23a2220c1cd64939a8109db21cd31ae4.bindPopup(popup_00fb54ff2c0240068da5adbbc29239f3)
+        ;
+
+        
+    
+    
+            marker_23a2220c1cd64939a8109db21cd31ae4.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_791a61c42a2e4d6bb03000e462b1d792 = L.marker(
+                [-13.814599, -55.270564],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_3023b4653ba348e490c4c91e7ede2f55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_791a61c42a2e4d6bb03000e462b1d792.setIcon(icon_3023b4653ba348e490c4c91e7ede2f55);
+        
+    
+        var popup_ae6a1cdfbaf24d10a8bb326ea6a012c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f301731e5f645b8a379093af5bd40ef = $(`<div id="html_9f301731e5f645b8a379093af5bd40ef" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_ae6a1cdfbaf24d10a8bb326ea6a012c3.setContent(html_9f301731e5f645b8a379093af5bd40ef);
+        
+
+        marker_791a61c42a2e4d6bb03000e462b1d792.bindPopup(popup_ae6a1cdfbaf24d10a8bb326ea6a012c3)
+        ;
+
+        
+    
+    
+            marker_791a61c42a2e4d6bb03000e462b1d792.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42f84408c3714a73b016e7dba63131b7 = L.marker(
+                [-15.862409, -56.078752],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_370629d9b9f84472be9a73f69255f37a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_42f84408c3714a73b016e7dba63131b7.setIcon(icon_370629d9b9f84472be9a73f69255f37a);
+        
+    
+        var popup_259a6b03505d4eaebfc1754a4c0222aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ab489bb29ff495fb0598862181039ef = $(`<div id="html_6ab489bb29ff495fb0598862181039ef" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_259a6b03505d4eaebfc1754a4c0222aa.setContent(html_6ab489bb29ff495fb0598862181039ef);
+        
+
+        marker_42f84408c3714a73b016e7dba63131b7.bindPopup(popup_259a6b03505d4eaebfc1754a4c0222aa)
+        ;
+
+        
+    
+    
+            marker_42f84408c3714a73b016e7dba63131b7.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dce953f3deee4812813fe43c5555cf0c = L.marker(
+                [-12.989214, -58.764472999999995],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_1e416953be0549d8b36c0ac2d52578ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_dce953f3deee4812813fe43c5555cf0c.setIcon(icon_1e416953be0549d8b36c0ac2d52578ce);
+        
+    
+        var popup_d60265b047744454bbe3b7998ce0a341 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d29739f4a98a4d0a9fd8cf4ca38804ef = $(`<div id="html_d29739f4a98a4d0a9fd8cf4ca38804ef" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 6.0<br></div>`)[0];
+            popup_d60265b047744454bbe3b7998ce0a341.setContent(html_d29739f4a98a4d0a9fd8cf4ca38804ef);
+        
+
+        marker_dce953f3deee4812813fe43c5555cf0c.bindPopup(popup_d60265b047744454bbe3b7998ce0a341)
+        ;
+
+        
+    
+    
+            marker_dce953f3deee4812813fe43c5555cf0c.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ecc16fc1487480b84fa06719b6db9ac = L.marker(
+                [-11.860430000000001, -55.509062],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_afeafd4e4aed4ad0b08cfce696e167a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9ecc16fc1487480b84fa06719b6db9ac.setIcon(icon_afeafd4e4aed4ad0b08cfce696e167a8);
+        
+    
+        var popup_8d2cacf1dfea418abb6d1e6a2c2b1034 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f15284f1dbd452fb1c36a20a9bc7cb7 = $(`<div id="html_9f15284f1dbd452fb1c36a20a9bc7cb7" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 5.0<br>Descartado 85.0<br></div>`)[0];
+            popup_8d2cacf1dfea418abb6d1e6a2c2b1034.setContent(html_9f15284f1dbd452fb1c36a20a9bc7cb7);
+        
+
+        marker_9ecc16fc1487480b84fa06719b6db9ac.bindPopup(popup_8d2cacf1dfea418abb6d1e6a2c2b1034)
+        ;
+
+        
+    
+    
+            marker_9ecc16fc1487480b84fa06719b6db9ac.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b10e37e6068c4275a88c9bd7c98f9bf6 = L.marker(
+                [-12.542527, -55.721051],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_892e6c29748a44679eec5b477a67b8c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b10e37e6068c4275a88c9bd7c98f9bf6.setIcon(icon_892e6c29748a44679eec5b477a67b8c1);
+        
+    
+        var popup_3d4b96c968e3494f8a306ad25adf38a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70e966be48f348a88f2a0b5ea8846dd9 = $(`<div id="html_70e966be48f348a88f2a0b5ea8846dd9" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 32.0<br></div>`)[0];
+            popup_3d4b96c968e3494f8a306ad25adf38a4.setContent(html_70e966be48f348a88f2a0b5ea8846dd9);
+        
+
+        marker_b10e37e6068c4275a88c9bd7c98f9bf6.bindPopup(popup_3d4b96c968e3494f8a306ad25adf38a4)
+        ;
+
+        
+    
+    
+            marker_b10e37e6068c4275a88c9bd7c98f9bf6.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cbbdfc0440844808dfdff29144f9594 = L.marker(
+                [-11.300739, -56.831237],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_1e6c73c3dea145eb935f8eea84cdffd5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_7cbbdfc0440844808dfdff29144f9594.setIcon(icon_1e6c73c3dea145eb935f8eea84cdffd5);
+        
+    
+        var popup_20cfa77d3b334441900419e08cd96a4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d41bff996f3416ea0d571657b95e262 = $(`<div id="html_4d41bff996f3416ea0d571657b95e262" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_20cfa77d3b334441900419e08cd96a4d.setContent(html_4d41bff996f3416ea0d571657b95e262);
+        
+
+        marker_7cbbdfc0440844808dfdff29144f9594.bindPopup(popup_20cfa77d3b334441900419e08cd96a4d)
+        ;
+
+        
+    
+    
+            marker_7cbbdfc0440844808dfdff29144f9594.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_826e61368a1445a3af016b13c100278e = L.marker(
+                [-14.622910000000001, -57.493278000000004],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_49172cb0df224fdd9eefea24331255a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_826e61368a1445a3af016b13c100278e.setIcon(icon_49172cb0df224fdd9eefea24331255a8);
+        
+    
+        var popup_679f92856986481abbc7baaacd5cd505 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f899be11b1bd4141b012aa681c0aafae = $(`<div id="html_f899be11b1bd4141b012aa681c0aafae" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 25.0<br></div>`)[0];
+            popup_679f92856986481abbc7baaacd5cd505.setContent(html_f899be11b1bd4141b012aa681c0aafae);
+        
+
+        marker_826e61368a1445a3af016b13c100278e.bindPopup(popup_679f92856986481abbc7baaacd5cd505)
+        ;
+
+        
+    
+    
+            marker_826e61368a1445a3af016b13c100278e.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_827f79d9894740688fd08dbe329d7c53 = L.marker(
+                [-10.517000000000001, -55.231],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_3f0276f5922a4372a8ca9d17bdcea474 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_827f79d9894740688fd08dbe329d7c53.setIcon(icon_3f0276f5922a4372a8ca9d17bdcea474);
+        
+    
+        var popup_815e87b076164756989808e916919bf1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02e4608a7c4844e7a667fc1cd03b6537 = $(`<div id="html_02e4608a7c4844e7a667fc1cd03b6537" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 4.0<br></div>`)[0];
+            popup_815e87b076164756989808e916919bf1.setContent(html_02e4608a7c4844e7a667fc1cd03b6537);
+        
+
+        marker_827f79d9894740688fd08dbe329d7c53.bindPopup(popup_815e87b076164756989808e916919bf1)
+        ;
+
+        
+    
+    
+            marker_827f79d9894740688fd08dbe329d7c53.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_47c53955209a4b16990b3eae43599486 = L.marker(
+                [-11.530776, -54.361637],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_3d3710fca10e46709b677f527024dfa2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_47c53955209a4b16990b3eae43599486.setIcon(icon_3d3710fca10e46709b677f527024dfa2);
+        
+    
+        var popup_76066c57c0394669ad5b8c571901ee60 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37e5166957a5423c90520b99ab89341f = $(`<div id="html_37e5166957a5423c90520b99ab89341f" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_76066c57c0394669ad5b8c571901ee60.setContent(html_37e5166957a5423c90520b99ab89341f);
+        
+
+        marker_47c53955209a4b16990b3eae43599486.bindPopup(popup_76066c57c0394669ad5b8c571901ee60)
+        ;
+
+        
+    
+    
+            marker_47c53955209a4b16990b3eae43599486.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56a765cb33b5421c80c995458fda1c05 = L.marker(
+                [-15.285975, -59.068313],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_d0dab2e2ca6f4674a55ca76bc5dc147c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_56a765cb33b5421c80c995458fda1c05.setIcon(icon_d0dab2e2ca6f4674a55ca76bc5dc147c);
+        
+    
+        var popup_abd417d93fde4b28b5b0a8d4888f71c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee49c0745d004259b54c1c5326baac56 = $(`<div id="html_ee49c0745d004259b54c1c5326baac56" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_abd417d93fde4b28b5b0a8d4888f71c7.setContent(html_ee49c0745d004259b54c1c5326baac56);
+        
+
+        marker_56a765cb33b5421c80c995458fda1c05.bindPopup(popup_abd417d93fde4b28b5b0a8d4888f71c7)
+        ;
+
+        
+    
+    
+            marker_56a765cb33b5421c80c995458fda1c05.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e44633ccdaec48d785710a341d3a91f2 = L.marker(
+                [-15.645816, -56.132218],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_6006241beef54e6cb453748d8b0909c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e44633ccdaec48d785710a341d3a91f2.setIcon(icon_6006241beef54e6cb453748d8b0909c6);
+        
+    
+        var popup_4d9c22accfa14dd9988e84c1f3508928 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b4013d595fa482595d6ca274646f4a4 = $(`<div id="html_6b4013d595fa482595d6ca274646f4a4" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>2.0<br>Suspeito 8.0<br>Descartado 28.0<br></div>`)[0];
+            popup_4d9c22accfa14dd9988e84c1f3508928.setContent(html_6b4013d595fa482595d6ca274646f4a4);
+        
+
+        marker_e44633ccdaec48d785710a341d3a91f2.bindPopup(popup_4d9c22accfa14dd9988e84c1f3508928)
+        ;
+
+        
+    
+    
+            marker_e44633ccdaec48d785710a341d3a91f2.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e38b3a93f3344674bf669ae79b2b9217 = L.marker(
+                [-10.013666, -51.118598999999996],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_b0fe7403fdeb4c5faeb0342133a40131 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_e38b3a93f3344674bf669ae79b2b9217.setIcon(icon_b0fe7403fdeb4c5faeb0342133a40131);
+        
+    
+        var popup_18a95eb30bc544af9a88b3d32fc78ccd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a10c298e188405d90138f293f6eacae = $(`<div id="html_5a10c298e188405d90138f293f6eacae" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 5.0<br></div>`)[0];
+            popup_18a95eb30bc544af9a88b3d32fc78ccd.setContent(html_5a10c298e188405d90138f293f6eacae);
+        
+
+        marker_e38b3a93f3344674bf669ae79b2b9217.bindPopup(popup_18a95eb30bc544af9a88b3d32fc78ccd)
+        ;
+
+        
+    
+    
+            marker_e38b3a93f3344674bf669ae79b2b9217.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8285409f2f2748c8a4836606bdcdc1b4 = L.marker(
+                [-14.356757, -56.969572],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_d1bfe349225b4e9d8cce01805debe6eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "thumbs-o-up", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_8285409f2f2748c8a4836606bdcdc1b4.setIcon(icon_d1bfe349225b4e9d8cce01805debe6eb);
+        
+    
+        var popup_eacf27ad59e945b7ab4a8d9595255d80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5929a2c9bf248ca8a618111debf930b = $(`<div id="html_c5929a2c9bf248ca8a618111debf930b" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_eacf27ad59e945b7ab4a8d9595255d80.setContent(html_c5929a2c9bf248ca8a618111debf930b);
+        
+
+        marker_8285409f2f2748c8a4836606bdcdc1b4.bindPopup(popup_eacf27ad59e945b7ab4a8d9595255d80)
+        ;
+
+        
+    
+    
+            marker_8285409f2f2748c8a4836606bdcdc1b4.bindTooltip(
+                `<div>
+                     Caso excluidos de corona virus
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f221c03ea5b4c0daccf0968b8753afa = L.marker(
+                [-9.999982000000001, -57.526052],
+                {}
+            ).addTo(map_7c24f83147a84ff6b79a1c4861c1860d);
+        
+    
+            var icon_1477343c986e4d30aa7ccdac1c04a301 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7f221c03ea5b4c0daccf0968b8753afa.setIcon(icon_1477343c986e4d30aa7ccdac1c04a301);
+        
+    
+        var popup_17a61fdd00544c4890b0b318e9af18c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c5e652932e74281900dd4d831c605a4 = $(`<div id="html_3c5e652932e74281900dd4d831c605a4" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>1.0<br>Suspeito 0<br>Descartado 4.0<br></div>`)[0];
+            popup_17a61fdd00544c4890b0b318e9af18c7.setContent(html_3c5e652932e74281900dd4d831c605a4);
+        
+
+        marker_7f221c03ea5b4c0daccf0968b8753afa.bindPopup(popup_17a61fdd00544c4890b0b318e9af18c7)
+        ;
+
+        
+    
+    
+            marker_7f221c03ea5b4c0daccf0968b8753afa.bindTooltip(
+                `<div>
+                     Veja mais informaçoes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

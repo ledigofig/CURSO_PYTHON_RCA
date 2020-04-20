@@ -1,0 +1,2142 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a5993bdebfb5431e8e4b2691ee807b33 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a5993bdebfb5431e8e4b2691ee807b33" ></div>
+        
+</body>
+<script>    
+    
+            var map_a5993bdebfb5431e8e4b2691ee807b33 = L.map(
+                "map_a5993bdebfb5431e8e4b2691ee807b33",
+                {
+                    center: [-12.6470066, -58.4244261],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_469e3228f1ed4fd08137f8e55a839d1c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var marker_8708bfd92455422b99f70dac48da904f = L.marker(
+                [-14.051019, -52.160133],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_e3eced0a42dd45b3ac03f06af720c846 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8708bfd92455422b99f70dac48da904f.setIcon(icon_e3eced0a42dd45b3ac03f06af720c846);
+        
+    
+        var popup_315b07ba15384247a0211f2b9d2fbeb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5410833d686841e9b51443578542691c = $(`<div id="html_5410833d686841e9b51443578542691c" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_315b07ba15384247a0211f2b9d2fbeb3.setContent(html_5410833d686841e9b51443578542691c);
+        
+
+        marker_8708bfd92455422b99f70dac48da904f.bindPopup(popup_315b07ba15384247a0211f2b9d2fbeb3)
+        ;
+
+        
+    
+    
+            marker_8708bfd92455422b99f70dac48da904f.bindTooltip(
+                `<div>
+                     Água Boa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a847c307886745ff8c24c88a0c4b0449 = L.marker(
+                [-9.866745, -56.086704000000005],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_a2946448262e42a1b16b749ab0046d97 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a847c307886745ff8c24c88a0c4b0449.setIcon(icon_a2946448262e42a1b16b749ab0046d97);
+        
+    
+        var popup_04477c93d03844b58e83ca7cd3118c9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13cd660b2d9a4dd1ada236d39a5ea2ff = $(`<div id="html_13cd660b2d9a4dd1ada236d39a5ea2ff" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 5.0<br>Descartado 1.0<br></div>`)[0];
+            popup_04477c93d03844b58e83ca7cd3118c9a.setContent(html_13cd660b2d9a4dd1ada236d39a5ea2ff);
+        
+
+        marker_a847c307886745ff8c24c88a0c4b0449.bindPopup(popup_04477c93d03844b58e83ca7cd3118c9a)
+        ;
+
+        
+    
+    
+            marker_a847c307886745ff8c24c88a0c4b0449.bindTooltip(
+                `<div>
+                     Alta Floresta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f02a240ace145d09d193b4ea3359a59 = L.marker(
+                [-17.315324, -53.218125],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_6fc496eea444467a9533e0e452af3d4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7f02a240ace145d09d193b4ea3359a59.setIcon(icon_6fc496eea444467a9533e0e452af3d4b);
+        
+    
+        var popup_475b5664820e4bd683f4f2f9b384d05a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d2cd8a8059447838f472013ad2003e4 = $(`<div id="html_3d2cd8a8059447838f472013ad2003e4" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_475b5664820e4bd683f4f2f9b384d05a.setContent(html_3d2cd8a8059447838f472013ad2003e4);
+        
+
+        marker_7f02a240ace145d09d193b4ea3359a59.bindPopup(popup_475b5664820e4bd683f4f2f9b384d05a)
+        ;
+
+        
+    
+    
+            marker_7f02a240ace145d09d193b4ea3359a59.bindTooltip(
+                `<div>
+                     Alto Araguaia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a138396a06d443091c9b141fd0aeee0 = L.marker(
+                [-17.82405, -53.279219999999995],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_8ce31eb7708c40bdb816f458139bf427 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0a138396a06d443091c9b141fd0aeee0.setIcon(icon_8ce31eb7708c40bdb816f458139bf427);
+        
+    
+        var popup_4c77cfd55e114ecca7f2c147b61946b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f8eecef91084f5896ff7baaf42d8858 = $(`<div id="html_5f8eecef91084f5896ff7baaf42d8858" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 1.0<br></div>`)[0];
+            popup_4c77cfd55e114ecca7f2c147b61946b9.setContent(html_5f8eecef91084f5896ff7baaf42d8858);
+        
+
+        marker_0a138396a06d443091c9b141fd0aeee0.bindPopup(popup_4c77cfd55e114ecca7f2c147b61946b9)
+        ;
+
+        
+    
+    
+            marker_0a138396a06d443091c9b141fd0aeee0.bindTooltip(
+                `<div>
+                     Alto Taquari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e6fad72e52c4cd8a3fd27771cfbfe7b = L.marker(
+                [-9.539809, -57.458677],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_b7835673661f4b39b1c336364877c12c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6e6fad72e52c4cd8a3fd27771cfbfe7b.setIcon(icon_b7835673661f4b39b1c336364877c12c);
+        
+    
+        var popup_58566f6b6263445991f2a8d59f63e83e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77c6b4ecf2ff49b1b9ab5516db5a2c75 = $(`<div id="html_77c6b4ecf2ff49b1b9ab5516db5a2c75" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_58566f6b6263445991f2a8d59f63e83e.setContent(html_77c6b4ecf2ff49b1b9ab5516db5a2c75);
+        
+
+        marker_6e6fad72e52c4cd8a3fd27771cfbfe7b.bindPopup(popup_58566f6b6263445991f2a8d59f63e83e)
+        ;
+
+        
+    
+    
+            marker_6e6fad72e52c4cd8a3fd27771cfbfe7b.bindTooltip(
+                `<div>
+                     Apiacás
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c5d437f508d4d5d94b958b58fd8e602 = L.marker(
+                [-15.464096, -58.342461],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_cd5cce1db86e4c0285d7cbb241e2b89c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1c5d437f508d4d5d94b958b58fd8e602.setIcon(icon_cd5cce1db86e4c0285d7cbb241e2b89c);
+        
+    
+        var popup_c1963a44ff854eaa869a1da5c01e9c76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b0b043cc3444fd981ef74384309ad05 = $(`<div id="html_8b0b043cc3444fd981ef74384309ad05" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 3.0<br></div>`)[0];
+            popup_c1963a44ff854eaa869a1da5c01e9c76.setContent(html_8b0b043cc3444fd981ef74384309ad05);
+        
+
+        marker_1c5d437f508d4d5d94b958b58fd8e602.bindPopup(popup_c1963a44ff854eaa869a1da5c01e9c76)
+        ;
+
+        
+    
+    
+            marker_1c5d437f508d4d5d94b958b58fd8e602.bindTooltip(
+                `<div>
+                     Araputanga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02fe03cbe6084e0083eca1844e25637c = L.marker(
+                [-10.172262, -59.456815],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_5802e6b537374c999e95715efc0f8425 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_02fe03cbe6084e0083eca1844e25637c.setIcon(icon_5802e6b537374c999e95715efc0f8425);
+        
+    
+        var popup_9a561d59f08c4cab974e27035dffb09a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ac58bcf2f8449abb8e5f2755767b41c = $(`<div id="html_4ac58bcf2f8449abb8e5f2755767b41c" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 4.0<br>Descartado 1.0<br></div>`)[0];
+            popup_9a561d59f08c4cab974e27035dffb09a.setContent(html_4ac58bcf2f8449abb8e5f2755767b41c);
+        
+
+        marker_02fe03cbe6084e0083eca1844e25637c.bindPopup(popup_9a561d59f08c4cab974e27035dffb09a)
+        ;
+
+        
+    
+    
+            marker_02fe03cbe6084e0083eca1844e25637c.bindTooltip(
+                `<div>
+                     Aripuanã
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d421a957130d4a93a92e94534eef702c = L.marker(
+                [-16.20669, -55.962337],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_e420c0c66ac544d58d688d74d69e01f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d421a957130d4a93a92e94534eef702c.setIcon(icon_e420c0c66ac544d58d688d74d69e01f1);
+        
+    
+        var popup_4736e9725ebb404d93f0a54812289eff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85d071851239446391a3804929f2f287 = $(`<div id="html_85d071851239446391a3804929f2f287" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_4736e9725ebb404d93f0a54812289eff.setContent(html_85d071851239446391a3804929f2f287);
+        
+
+        marker_d421a957130d4a93a92e94534eef702c.bindPopup(popup_4736e9725ebb404d93f0a54812289eff)
+        ;
+
+        
+    
+    
+            marker_d421a957130d4a93a92e94534eef702c.bindTooltip(
+                `<div>
+                     Barão de Melgaço
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bcfc45ee6e6492080dc0c79ce7b6afb = L.marker(
+                [-15.070160000000001, -57.18778399999999],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_d9b3f014ca404f16979b77f41e5b2844 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2bcfc45ee6e6492080dc0c79ce7b6afb.setIcon(icon_d9b3f014ca404f16979b77f41e5b2844);
+        
+    
+        var popup_359bc6f7e8814dd4b4360fed0497ef95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45c37e801b0b4aeb9694388005590b79 = $(`<div id="html_45c37e801b0b4aeb9694388005590b79" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 0<br></div>`)[0];
+            popup_359bc6f7e8814dd4b4360fed0497ef95.setContent(html_45c37e801b0b4aeb9694388005590b79);
+        
+
+        marker_2bcfc45ee6e6492080dc0c79ce7b6afb.bindPopup(popup_359bc6f7e8814dd4b4360fed0497ef95)
+        ;
+
+        
+    
+    
+            marker_2bcfc45ee6e6492080dc0c79ce7b6afb.bindTooltip(
+                `<div>
+                     Barra do Bugres
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e46ea4f5ea24232acf6b1bb42acd5ec = L.marker(
+                [-15.880412, -52.263953],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_7abaaf92e08c4a6aacc9887725de2cfd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4e46ea4f5ea24232acf6b1bb42acd5ec.setIcon(icon_7abaaf92e08c4a6aacc9887725de2cfd);
+        
+    
+        var popup_8c879a419afe46cabee9a9c9afbd91ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dae208efea342bd9ba7a7d3aa82ac05 = $(`<div id="html_4dae208efea342bd9ba7a7d3aa82ac05" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 7.0<br>Descartado 0<br></div>`)[0];
+            popup_8c879a419afe46cabee9a9c9afbd91ed.setContent(html_4dae208efea342bd9ba7a7d3aa82ac05);
+        
+
+        marker_4e46ea4f5ea24232acf6b1bb42acd5ec.bindPopup(popup_8c879a419afe46cabee9a9c9afbd91ed)
+        ;
+
+        
+    
+    
+            marker_4e46ea4f5ea24232acf6b1bb42acd5ec.bindTooltip(
+                `<div>
+                     Barra do Garças
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03554e3f94034db885ce514e5fe20a91 = L.marker(
+                [-12.147402, -57.983341],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_8b2efd2f9a524bf7b08c64dbb56f622d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_03554e3f94034db885ce514e5fe20a91.setIcon(icon_8b2efd2f9a524bf7b08c64dbb56f622d);
+        
+    
+        var popup_bed98ded11f9406b809dc4a118c403ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b14396d4912148b88578744a3ea6cfad = $(`<div id="html_b14396d4912148b88578744a3ea6cfad" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 5.0<br>Descartado 0<br></div>`)[0];
+            popup_bed98ded11f9406b809dc4a118c403ff.setContent(html_b14396d4912148b88578744a3ea6cfad);
+        
+
+        marker_03554e3f94034db885ce514e5fe20a91.bindPopup(popup_bed98ded11f9406b809dc4a118c403ff)
+        ;
+
+        
+    
+    
+            marker_03554e3f94034db885ce514e5fe20a91.bindTooltip(
+                `<div>
+                     Brasnorte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58e7190e314a4ebb94186970228b9e34 = L.marker(
+                [-16.076414, -57.681798],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_44c9409b06f5469e81c367fcb3d6ce3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_58e7190e314a4ebb94186970228b9e34.setIcon(icon_44c9409b06f5469e81c367fcb3d6ce3d);
+        
+    
+        var popup_aa3901a853b44804b0c8f49e72f38873 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ab79a8d20a54282babc5f34765d9aab = $(`<div id="html_4ab79a8d20a54282babc5f34765d9aab" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 0<br></div>`)[0];
+            popup_aa3901a853b44804b0c8f49e72f38873.setContent(html_4ab79a8d20a54282babc5f34765d9aab);
+        
+
+        marker_58e7190e314a4ebb94186970228b9e34.bindPopup(popup_aa3901a853b44804b0c8f49e72f38873)
+        ;
+
+        
+    
+    
+            marker_58e7190e314a4ebb94186970228b9e34.bindTooltip(
+                `<div>
+                     Cáceres
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cef93e62422c4d8695c51020cb80bde7 = L.marker(
+                [-13.658735, -57.890723],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_0ba3e9b732fd4d67a3250c109cdcd19c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_cef93e62422c4d8695c51020cb80bde7.setIcon(icon_0ba3e9b732fd4d67a3250c109cdcd19c);
+        
+    
+        var popup_5427c4b744bd4ebf99135e55e6eafca6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e61198ae3e034dbc895898559b4355f9 = $(`<div id="html_e61198ae3e034dbc895898559b4355f9" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 10.0<br>Descartado 0<br></div>`)[0];
+            popup_5427c4b744bd4ebf99135e55e6eafca6.setContent(html_e61198ae3e034dbc895898559b4355f9);
+        
+
+        marker_cef93e62422c4d8695c51020cb80bde7.bindPopup(popup_5427c4b744bd4ebf99135e55e6eafca6)
+        ;
+
+        
+    
+    
+            marker_cef93e62422c4d8695c51020cb80bde7.bindTooltip(
+                `<div>
+                     Campo Novo do Parecis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0c124954b9348c2940f8fee422c925e = L.marker(
+                [-15.544978, -55.16258199999999],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_0d82ba30a0ee46acbdc18b2eeaf45380 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f0c124954b9348c2940f8fee422c925e.setIcon(icon_0d82ba30a0ee46acbdc18b2eeaf45380);
+        
+    
+        var popup_18965961c32e41e5beab70ff1f1b75cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cb998771cd04c2fa7cbe2ee8969b5bf = $(`<div id="html_2cb998771cd04c2fa7cbe2ee8969b5bf" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 7.0<br>Descartado 0<br></div>`)[0];
+            popup_18965961c32e41e5beab70ff1f1b75cf.setContent(html_2cb998771cd04c2fa7cbe2ee8969b5bf);
+        
+
+        marker_f0c124954b9348c2940f8fee422c925e.bindPopup(popup_18965961c32e41e5beab70ff1f1b75cf)
+        ;
+
+        
+    
+    
+            marker_f0c124954b9348c2940f8fee422c925e.bindTooltip(
+                `<div>
+                     Campo Verde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c6b365710a3430583be1e6843149ac4 = L.marker(
+                [-13.724224, -59.285807],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_ad7f1c19b51b49168086f77ab1763f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5c6b365710a3430583be1e6843149ac4.setIcon(icon_ad7f1c19b51b49168086f77ab1763f30);
+        
+    
+        var popup_b8107faedd564ab681c3cbce09a8885a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b34c4271252a49cbbacad1621dda7f3f = $(`<div id="html_b34c4271252a49cbbacad1621dda7f3f" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_b8107faedd564ab681c3cbce09a8885a.setContent(html_b34c4271252a49cbbacad1621dda7f3f);
+        
+
+        marker_5c6b365710a3430583be1e6843149ac4.bindPopup(popup_b8107faedd564ab681c3cbce09a8885a)
+        ;
+
+        
+    
+    
+            marker_5c6b365710a3430583be1e6843149ac4.bindTooltip(
+                `<div>
+                     Campos de Júlio
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0ae52e98bde4bee8562292f57e89e02 = L.marker(
+                [-11.125060000000001, -58.608076000000004],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_aa69d930f35c4063bde1d3b4e11517b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b0ae52e98bde4bee8562292f57e89e02.setIcon(icon_aa69d930f35c4063bde1d3b4e11517b3);
+        
+    
+        var popup_bf8d1a4fec634d89b5533bc256d5bf12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3e596e833e04181bcdf908ec657db3e = $(`<div id="html_b3e596e833e04181bcdf908ec657db3e" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 3.0<br>Descartado 0<br></div>`)[0];
+            popup_bf8d1a4fec634d89b5533bc256d5bf12.setContent(html_b3e596e833e04181bcdf908ec657db3e);
+        
+
+        marker_b0ae52e98bde4bee8562292f57e89e02.bindPopup(popup_bf8d1a4fec634d89b5533bc256d5bf12)
+        ;
+
+        
+    
+    
+            marker_b0ae52e98bde4bee8562292f57e89e02.bindTooltip(
+                `<div>
+                     Castanheira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4c7b99676d9f4f7fa261eee83ff9a6be = L.marker(
+                [-10.813452999999999, -55.460981000000004],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_38a0bb7a1d0e4adfbc19cd90fcceb5b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4c7b99676d9f4f7fa261eee83ff9a6be.setIcon(icon_38a0bb7a1d0e4adfbc19cd90fcceb5b8);
+        
+    
+        var popup_dc61acfd86c2401b823df5df8f2b9459 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5256e4be5c4f4b438ac3dde63ac11096 = $(`<div id="html_5256e4be5c4f4b438ac3dde63ac11096" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_dc61acfd86c2401b823df5df8f2b9459.setContent(html_5256e4be5c4f4b438ac3dde63ac11096);
+        
+
+        marker_4c7b99676d9f4f7fa261eee83ff9a6be.bindPopup(popup_dc61acfd86c2401b823df5df8f2b9459)
+        ;
+
+        
+    
+    
+            marker_4c7b99676d9f4f7fa261eee83ff9a6be.bindTooltip(
+                `<div>
+                     Colíder
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63f756485de942af983979dd805ff6f1 = L.marker(
+                [-9.461207, -59.225189],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_038dd734742d4cc1a8696d54b812484d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_63f756485de942af983979dd805ff6f1.setIcon(icon_038dd734742d4cc1a8696d54b812484d);
+        
+    
+        var popup_4f35cfe16bac422d8f35145d8726da19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a2908b6cb0448f6bb7a9cfb837f8b48 = $(`<div id="html_7a2908b6cb0448f6bb7a9cfb837f8b48" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_4f35cfe16bac422d8f35145d8726da19.setContent(html_7a2908b6cb0448f6bb7a9cfb837f8b48);
+        
+
+        marker_63f756485de942af983979dd805ff6f1.bindPopup(popup_4f35cfe16bac422d8f35145d8726da19)
+        ;
+
+        
+    
+    
+            marker_63f756485de942af983979dd805ff6f1.bindTooltip(
+                `<div>
+                     Colniza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2aa1d8006afa4ec695a03b64c31eb6ef = L.marker(
+                [-13.661435999999998, -59.784751],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_7ddffa92892a41c5a24f0914b4f5ecf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2aa1d8006afa4ec695a03b64c31eb6ef.setIcon(icon_7ddffa92892a41c5a24f0914b4f5ecf5);
+        
+    
+        var popup_9553354c481c419887f27e33a5d6e05d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f75669a492c6430ea027d0d5f1f2c6da = $(`<div id="html_f75669a492c6430ea027d0d5f1f2c6da" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 5.0<br>Descartado 0<br></div>`)[0];
+            popup_9553354c481c419887f27e33a5d6e05d.setContent(html_f75669a492c6430ea027d0d5f1f2c6da);
+        
+
+        marker_2aa1d8006afa4ec695a03b64c31eb6ef.bindPopup(popup_9553354c481c419887f27e33a5d6e05d)
+        ;
+
+        
+    
+    
+            marker_2aa1d8006afa4ec695a03b64c31eb6ef.bindTooltip(
+                `<div>
+                     Comodoro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1341e1a0328643c083b99feb3e5f7198 = L.marker(
+                [-10.643695, -51.569873],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_2a794dc00b4e43c3bdf3e674e079862c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1341e1a0328643c083b99feb3e5f7198.setIcon(icon_2a794dc00b4e43c3bdf3e674e079862c);
+        
+    
+        var popup_16a9a624e06e4a079213c7bd94166747 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5a222beab204e93b6e53e9d7e2a8fcb = $(`<div id="html_b5a222beab204e93b6e53e9d7e2a8fcb" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_16a9a624e06e4a079213c7bd94166747.setContent(html_b5a222beab204e93b6e53e9d7e2a8fcb);
+        
+
+        marker_1341e1a0328643c083b99feb3e5f7198.bindPopup(popup_16a9a624e06e4a079213c7bd94166747)
+        ;
+
+        
+    
+    
+            marker_1341e1a0328643c083b99feb3e5f7198.bindTooltip(
+                `<div>
+                     Confresa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc1daa7f8f8442b3aa4c763f51566ec9 = L.marker(
+                [-9.856563000000001, -58.419231],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_c0336cf7941243a3bf722ad1b3d40cfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_dc1daa7f8f8442b3aa4c763f51566ec9.setIcon(icon_c0336cf7941243a3bf722ad1b3d40cfa);
+        
+    
+        var popup_e0ca258c424f4fcea406460dfe47c9d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_430d37cf9e8a471fa2a5c21659a8d051 = $(`<div id="html_430d37cf9e8a471fa2a5c21659a8d051" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_e0ca258c424f4fcea406460dfe47c9d1.setContent(html_430d37cf9e8a471fa2a5c21659a8d051);
+        
+
+        marker_dc1daa7f8f8442b3aa4c763f51566ec9.bindPopup(popup_e0ca258c424f4fcea406460dfe47c9d1)
+        ;
+
+        
+    
+    
+            marker_dc1daa7f8f8442b3aa4c763f51566ec9.bindTooltip(
+                `<div>
+                     Cotriguaçu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3fba4917ab446efaa5095dbd817b9e0 = L.marker(
+                [-15.600979, -56.097396999999994],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_cfc1d8df9b6040e39d1f1981d51828ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a3fba4917ab446efaa5095dbd817b9e0.setIcon(icon_cfc1d8df9b6040e39d1f1981d51828ef);
+        
+    
+        var popup_4b7a93b1ac294fd8857176b17552145c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cf4a7648aa64e4ba45b1396fd40177f = $(`<div id="html_1cf4a7648aa64e4ba45b1396fd40177f" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>5.0<br>Suspeito 42.0<br>Descartado 18.0<br></div>`)[0];
+            popup_4b7a93b1ac294fd8857176b17552145c.setContent(html_1cf4a7648aa64e4ba45b1396fd40177f);
+        
+
+        marker_a3fba4917ab446efaa5095dbd817b9e0.bindPopup(popup_4b7a93b1ac294fd8857176b17552145c)
+        ;
+
+        
+    
+    
+            marker_a3fba4917ab446efaa5095dbd817b9e0.bindTooltip(
+                `<div>
+                     Cuiabá
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a31084c575034005841d2458900106f6 = L.marker(
+                [-14.403673000000001, -56.436599],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_9f1dc7865bc84cfbabb16b6d648cedb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a31084c575034005841d2458900106f6.setIcon(icon_9f1dc7865bc84cfbabb16b6d648cedb8);
+        
+    
+        var popup_bf3f83d6fb7542aa876fb92f7d5c09b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1f0c2640f1b4076b02ec13675b359f8 = $(`<div id="html_e1f0c2640f1b4076b02ec13675b359f8" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_bf3f83d6fb7542aa876fb92f7d5c09b3.setContent(html_e1f0c2640f1b4076b02ec13675b359f8);
+        
+
+        marker_a31084c575034005841d2458900106f6.bindPopup(popup_bf3f83d6fb7542aa876fb92f7d5c09b3)
+        ;
+
+        
+    
+    
+            marker_a31084c575034005841d2458900106f6.bindTooltip(
+                `<div>
+                     Diamantino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12604432e7544d98b5ad639b8dcc3d32 = L.marker(
+                [-15.767592, -58.306121],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_d56e4dd5be5c4df0be957ab0db7ea3dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_12604432e7544d98b5ad639b8dcc3d32.setIcon(icon_d56e4dd5be5c4df0be957ab0db7ea3dd);
+        
+    
+        var popup_211420730056481eb9a557b5efe9f6c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_170363cae09342f8bce44696790fa245 = $(`<div id="html_170363cae09342f8bce44696790fa245" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 2.0<br></div>`)[0];
+            popup_211420730056481eb9a557b5efe9f6c5.setContent(html_170363cae09342f8bce44696790fa245);
+        
+
+        marker_12604432e7544d98b5ad639b8dcc3d32.bindPopup(popup_211420730056481eb9a557b5efe9f6c5)
+        ;
+
+        
+    
+    
+            marker_12604432e7544d98b5ad639b8dcc3d32.bindTooltip(
+                `<div>
+                     Glória d`Oeste
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_333d68d7442e49ec8050bf2f5c77097b = L.marker(
+                [-9.962182, -54.912126],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_2b8402b7caca4593bffdf247a6af5907 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_333d68d7442e49ec8050bf2f5c77097b.setIcon(icon_2b8402b7caca4593bffdf247a6af5907);
+        
+    
+        var popup_2bcbd6ca994d46c885c49d675fb8256d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0373f3b20b854a92aa0ccbd106b92081 = $(`<div id="html_0373f3b20b854a92aa0ccbd106b92081" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 0<br></div>`)[0];
+            popup_2bcbd6ca994d46c885c49d675fb8256d.setContent(html_0373f3b20b854a92aa0ccbd106b92081);
+        
+
+        marker_333d68d7442e49ec8050bf2f5c77097b.bindPopup(popup_2bcbd6ca994d46c885c49d675fb8256d)
+        ;
+
+        
+    
+    
+            marker_333d68d7442e49ec8050bf2f5c77097b.bindTooltip(
+                `<div>
+                     Guarantã do Norte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bfebb728ce144abb7d96a8a7f962d2a = L.marker(
+                [-16.345979, -53.757490000000004],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_ee7d87dd889f4ea6bcd0436a84a256a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7bfebb728ce144abb7d96a8a7f962d2a.setIcon(icon_ee7d87dd889f4ea6bcd0436a84a256a6);
+        
+    
+        var popup_d2bece52f60246afac6a26602da511ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a2b2fafb9a6499eadd420febd03ad1a = $(`<div id="html_3a2b2fafb9a6499eadd420febd03ad1a" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_d2bece52f60246afac6a26602da511ee.setContent(html_3a2b2fafb9a6499eadd420febd03ad1a);
+        
+
+        marker_7bfebb728ce144abb7d96a8a7f962d2a.bindPopup(popup_d2bece52f60246afac6a26602da511ee)
+        ;
+
+        
+    
+    
+            marker_7bfebb728ce144abb7d96a8a7f962d2a.bindTooltip(
+                `<div>
+                     Guiratinga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c7ab42e2c434f92809a41802dba41fe = L.marker(
+                [-12.240162, -56.145936],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_caf0d462a31947eb82c3f9048e790d09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2c7ab42e2c434f92809a41802dba41fe.setIcon(icon_caf0d462a31947eb82c3f9048e790d09);
+        
+    
+        var popup_66c1825a3a12473db99b59de63cdfce4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae34e1498fe64739a900bcb68a30769f = $(`<div id="html_ae34e1498fe64739a900bcb68a30769f" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_66c1825a3a12473db99b59de63cdfce4.setContent(html_ae34e1498fe64739a900bcb68a30769f);
+        
+
+        marker_2c7ab42e2c434f92809a41802dba41fe.bindPopup(popup_66c1825a3a12473db99b59de63cdfce4)
+        ;
+
+        
+    
+    
+            marker_2c7ab42e2c434f92809a41802dba41fe.bindTooltip(
+                `<div>
+                     Ipiranga do Norte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9dfdf5803064867bf6c39b690ebcbf3 = L.marker(
+                [-17.214693, -54.142214],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_5d9ad6cd45574e5395e1fffb10e45178 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c9dfdf5803064867bf6c39b690ebcbf3.setIcon(icon_5d9ad6cd45574e5395e1fffb10e45178);
+        
+    
+        var popup_414e8521c5c14e2a8ec9b45c600525ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25b7580c578d4380a9cdcc3c5c05a96c = $(`<div id="html_25b7580c578d4380a9cdcc3c5c05a96c" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_414e8521c5c14e2a8ec9b45c600525ce.setContent(html_25b7580c578d4380a9cdcc3c5c05a96c);
+        
+
+        marker_c9dfdf5803064867bf6c39b690ebcbf3.bindPopup(popup_414e8521c5c14e2a8ec9b45c600525ce)
+        ;
+
+        
+    
+    
+            marker_c9dfdf5803064867bf6c39b690ebcbf3.bindTooltip(
+                `<div>
+                     Itiquira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3729b97d92a42bfbc0730256fcb3c0b = L.marker(
+                [-11.263925, -57.524443000000005],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_5d019def8c2540829931091a0da0e575 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c3729b97d92a42bfbc0730256fcb3c0b.setIcon(icon_5d019def8c2540829931091a0da0e575);
+        
+    
+        var popup_4f54250346fe4583aceb184b4a30817d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a71947e2eb2b48489cadec9fe7114f99 = $(`<div id="html_a71947e2eb2b48489cadec9fe7114f99" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_4f54250346fe4583aceb184b4a30817d.setContent(html_a71947e2eb2b48489cadec9fe7114f99);
+        
+
+        marker_c3729b97d92a42bfbc0730256fcb3c0b.bindPopup(popup_4f54250346fe4583aceb184b4a30817d)
+        ;
+
+        
+    
+    
+            marker_c3729b97d92a42bfbc0730256fcb3c0b.bindTooltip(
+                `<div>
+                     Juara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d822c5fd62c437caebc2f6e2974c77b = L.marker(
+                [-11.372752, -58.748314],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_ba5d4ed63a0b4ae9a4917a472b51c36d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8d822c5fd62c437caebc2f6e2974c77b.setIcon(icon_ba5d4ed63a0b4ae9a4917a472b51c36d);
+        
+    
+        var popup_37228719b7ff43d5a53401dc3bdea1a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18fdbf84267745caaa6e8ec49a07db70 = $(`<div id="html_18fdbf84267745caaa6e8ec49a07db70" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 0<br></div>`)[0];
+            popup_37228719b7ff43d5a53401dc3bdea1a1.setContent(html_18fdbf84267745caaa6e8ec49a07db70);
+        
+
+        marker_8d822c5fd62c437caebc2f6e2974c77b.bindPopup(popup_37228719b7ff43d5a53401dc3bdea1a1)
+        ;
+
+        
+    
+    
+            marker_8d822c5fd62c437caebc2f6e2974c77b.bindTooltip(
+                `<div>
+                     Juína
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_652c589a4d8547b288255d91c2a98bbd = L.marker(
+                [-10.317805, -58.359179000000005],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_233bb0dcca684c10859d03d9b529f6b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_652c589a4d8547b288255d91c2a98bbd.setIcon(icon_233bb0dcca684c10859d03d9b529f6b9);
+        
+    
+        var popup_a37aa6a336c84568848414e16adb39a2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b363ac1c27f84c5690b175357028c969 = $(`<div id="html_b363ac1c27f84c5690b175357028c969" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_a37aa6a336c84568848414e16adb39a2.setContent(html_b363ac1c27f84c5690b175357028c969);
+        
+
+        marker_652c589a4d8547b288255d91c2a98bbd.bindPopup(popup_a37aa6a336c84568848414e16adb39a2)
+        ;
+
+        
+    
+    
+            marker_652c589a4d8547b288255d91c2a98bbd.bindTooltip(
+                `<div>
+                     Juruena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_061f4a339ca848a39837ebe79240b2b6 = L.marker(
+                [-13.058796000000001, -55.904202000000005],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_9f03755c757d4e1ba63070be44f40998 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_061f4a339ca848a39837ebe79240b2b6.setIcon(icon_9f03755c757d4e1ba63070be44f40998);
+        
+    
+        var popup_39ad65b2667945dca65cc5ded91c42bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_219d60671a5d41048d6056766288e76c = $(`<div id="html_219d60671a5d41048d6056766288e76c" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 5.0<br>Descartado 1.0<br></div>`)[0];
+            popup_39ad65b2667945dca65cc5ded91c42bc.setContent(html_219d60671a5d41048d6056766288e76c);
+        
+
+        marker_061f4a339ca848a39837ebe79240b2b6.bindPopup(popup_39ad65b2667945dca65cc5ded91c42bc)
+        ;
+
+        
+    
+    
+            marker_061f4a339ca848a39837ebe79240b2b6.bindTooltip(
+                `<div>
+                     Lucas do Rio Verde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_153a048ed50a4ee1aae536b4ce95b112 = L.marker(
+                [-15.003938, -59.947256],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_875cf0b12fcc4262b769f9214513ddd2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_153a048ed50a4ee1aae536b4ce95b112.setIcon(icon_875cf0b12fcc4262b769f9214513ddd2);
+        
+    
+        var popup_c625694f5ee647e6b45aec74a6177a07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_236cdc1a7240434ca0054e3332ce4b4a = $(`<div id="html_236cdc1a7240434ca0054e3332ce4b4a" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_c625694f5ee647e6b45aec74a6177a07.setContent(html_236cdc1a7240434ca0054e3332ce4b4a);
+        
+
+        marker_153a048ed50a4ee1aae536b4ce95b112.bindPopup(popup_c625694f5ee647e6b45aec74a6177a07)
+        ;
+
+        
+    
+    
+            marker_153a048ed50a4ee1aae536b4ce95b112.bindTooltip(
+                `<div>
+                     Vila Bela da Santíssima Trindade
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5f27794bc6634ddb8f3454320bd7147e = L.marker(
+                [-10.182065, -54.94667],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_9e279108a2ef478abf957eea4dbf3718 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5f27794bc6634ddb8f3454320bd7147e.setIcon(icon_9e279108a2ef478abf957eea4dbf3718);
+        
+    
+        var popup_7c8b7b169c8d4ab18841b819bc6ea8ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efc63e33a72740a4b2b8eb0b0874ed8e = $(`<div id="html_efc63e33a72740a4b2b8eb0b0874ed8e" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 3.0<br>Descartado 0<br></div>`)[0];
+            popup_7c8b7b169c8d4ab18841b819bc6ea8ee.setContent(html_efc63e33a72740a4b2b8eb0b0874ed8e);
+        
+
+        marker_5f27794bc6634ddb8f3454320bd7147e.bindPopup(popup_7c8b7b169c8d4ab18841b819bc6ea8ee)
+        ;
+
+        
+    
+    
+            marker_5f27794bc6634ddb8f3454320bd7147e.bindTooltip(
+                `<div>
+                     Matupá
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_984d74c13e3743c295f4f96ea13f11ae = L.marker(
+                [-15.772023999999998, -56.343242000000004],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_ca2a33d149e541a39313daa1d8fd6ae9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_984d74c13e3743c295f4f96ea13f11ae.setIcon(icon_ca2a33d149e541a39313daa1d8fd6ae9);
+        
+    
+        var popup_8ab1708246ff476dad66b53c99026fd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e61f9e85db654208b0a3caf0a3c87100 = $(`<div id="html_e61f9e85db654208b0a3caf0a3c87100" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_8ab1708246ff476dad66b53c99026fd0.setContent(html_e61f9e85db654208b0a3caf0a3c87100);
+        
+
+        marker_984d74c13e3743c295f4f96ea13f11ae.bindPopup(popup_8ab1708246ff476dad66b53c99026fd0)
+        ;
+
+        
+    
+    
+            marker_984d74c13e3743c295f4f96ea13f11ae.bindTooltip(
+                `<div>
+                     Nossa Senhora do Livramento
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9ef5e0a12cd4200b1546cd99102a579 = L.marker(
+                [-13.837389000000002, -56.074316],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_13e6dc811db644c4bfed6ab9ec08bc22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f9ef5e0a12cd4200b1546cd99102a579.setIcon(icon_13e6dc811db644c4bfed6ab9ec08bc22);
+        
+    
+        var popup_fe8d1e85677f440e841bce0e20ae383b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1283939ecd1b4577b84e777f4ac18f6b = $(`<div id="html_1283939ecd1b4577b84e777f4ac18f6b" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 3.0<br>Descartado 1.0<br></div>`)[0];
+            popup_fe8d1e85677f440e841bce0e20ae383b.setContent(html_1283939ecd1b4577b84e777f4ac18f6b);
+        
+
+        marker_f9ef5e0a12cd4200b1546cd99102a579.bindPopup(popup_fe8d1e85677f440e841bce0e20ae383b)
+        ;
+
+        
+    
+    
+            marker_f9ef5e0a12cd4200b1546cd99102a579.bindTooltip(
+                `<div>
+                     Nova Mutum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e1485f70e914f4f920a84c20743df21 = L.marker(
+                [-14.788947, -57.288613],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_f98b39e1a9ef484884feb05276675924 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_3e1485f70e914f4f920a84c20743df21.setIcon(icon_f98b39e1a9ef484884feb05276675924);
+        
+    
+        var popup_1e7c168b502a41faab19bfd3748de997 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d130aa596323422da6f58a54e8cc7d62 = $(`<div id="html_d130aa596323422da6f58a54e8cc7d62" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_1e7c168b502a41faab19bfd3748de997.setContent(html_d130aa596323422da6f58a54e8cc7d62);
+        
+
+        marker_3e1485f70e914f4f920a84c20743df21.bindPopup(popup_1e7c168b502a41faab19bfd3748de997)
+        ;
+
+        
+    
+    
+            marker_3e1485f70e914f4f920a84c20743df21.bindTooltip(
+                `<div>
+                     Nova Olímpia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b4c089827f746eba1caabf18d2c9d70 = L.marker(
+                [-14.677063, -52.350234],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_d4fd2fa5c8ea4d64b423d984f159aca8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1b4c089827f746eba1caabf18d2c9d70.setIcon(icon_d4fd2fa5c8ea4d64b423d984f159aca8);
+        
+    
+        var popup_9584efec13c14e418532ac1fcda5c702 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9814a0a9eb594cffb8c4f6bc9c2361e3 = $(`<div id="html_9814a0a9eb594cffb8c4f6bc9c2361e3" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 1.0<br></div>`)[0];
+            popup_9584efec13c14e418532ac1fcda5c702.setContent(html_9814a0a9eb594cffb8c4f6bc9c2361e3);
+        
+
+        marker_1b4c089827f746eba1caabf18d2c9d70.bindPopup(popup_9584efec13c14e418532ac1fcda5c702)
+        ;
+
+        
+    
+    
+            marker_1b4c089827f746eba1caabf18d2c9d70.bindTooltip(
+                `<div>
+                     Nova Xavantina
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53000c4aa173475db13754ff7267d6f7 = L.marker(
+                [-9.956159, -55.20295],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_d4d0cb8fdc584cb1b629707ef9baa10e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_53000c4aa173475db13754ff7267d6f7.setIcon(icon_d4d0cb8fdc584cb1b629707ef9baa10e);
+        
+    
+        var popup_a56e5168960d40b7b34ad80a25bff6ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5179c4b4ba5c4db49c455cfb3c09bf7b = $(`<div id="html_5179c4b4ba5c4db49c455cfb3c09bf7b" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_a56e5168960d40b7b34ad80a25bff6ea.setContent(html_5179c4b4ba5c4db49c455cfb3c09bf7b);
+        
+
+        marker_53000c4aa173475db13754ff7267d6f7.bindPopup(popup_a56e5168960d40b7b34ad80a25bff6ea)
+        ;
+
+        
+    
+    
+            marker_53000c4aa173475db13754ff7267d6f7.bindTooltip(
+                `<div>
+                     Novo Mundo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4b48924782f747a4abd99dd38e89944e = L.marker(
+                [-9.658348, -56.478623],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_6de23486df7c40c5b8fb7c62d279e712 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4b48924782f747a4abd99dd38e89944e.setIcon(icon_6de23486df7c40c5b8fb7c62d279e712);
+        
+    
+        var popup_bb5e07eeaeaf49c8b9bf21604d519196 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30464495fc7848e18f666e5a20cf39c7 = $(`<div id="html_30464495fc7848e18f666e5a20cf39c7" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 0<br></div>`)[0];
+            popup_bb5e07eeaeaf49c8b9bf21604d519196.setContent(html_30464495fc7848e18f666e5a20cf39c7);
+        
+
+        marker_4b48924782f747a4abd99dd38e89944e.bindPopup(popup_bb5e07eeaeaf49c8b9bf21604d519196)
+        ;
+
+        
+    
+    
+            marker_4b48924782f747a4abd99dd38e89944e.bindTooltip(
+                `<div>
+                     Paranaíta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df0365533583457eb063e3099da74691 = L.marker(
+                [-14.426475, -54.052426000000004],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_ed63b34b239b450e8402d74acf15e6a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_df0365533583457eb063e3099da74691.setIcon(icon_ed63b34b239b450e8402d74acf15e6a9);
+        
+    
+        var popup_b2098409ad02420a8902fd29cbaf7efa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8461ddc2fdbd403f96708e5d5101682b = $(`<div id="html_8461ddc2fdbd403f96708e5d5101682b" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 7.0<br>Descartado 0<br></div>`)[0];
+            popup_b2098409ad02420a8902fd29cbaf7efa.setContent(html_8461ddc2fdbd403f96708e5d5101682b);
+        
+
+        marker_df0365533583457eb063e3099da74691.bindPopup(popup_b2098409ad02420a8902fd29cbaf7efa)
+        ;
+
+        
+    
+    
+            marker_df0365533583457eb063e3099da74691.bindTooltip(
+                `<div>
+                     Paranatinga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d829d8fd66ac4fea91aa43c50f0d9256 = L.marker(
+                [-16.624505, -54.47218],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_b6adaeb259ea467492a68c53a1f7293c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d829d8fd66ac4fea91aa43c50f0d9256.setIcon(icon_b6adaeb259ea467492a68c53a1f7293c);
+        
+    
+        var popup_d9d13845e8a94b5f9169a9ea1a83f12a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19d6b7b3532949dd86e1b4ea0a696c40 = $(`<div id="html_19d6b7b3532949dd86e1b4ea0a696c40" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 3.0<br>Descartado 0<br></div>`)[0];
+            popup_d9d13845e8a94b5f9169a9ea1a83f12a.setContent(html_19d6b7b3532949dd86e1b4ea0a696c40);
+        
+
+        marker_d829d8fd66ac4fea91aa43c50f0d9256.bindPopup(popup_d9d13845e8a94b5f9169a9ea1a83f12a)
+        ;
+
+        
+    
+    
+            marker_d829d8fd66ac4fea91aa43c50f0d9256.bindTooltip(
+                `<div>
+                     Pedra Preta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b16abe2cf174996bd9b180187ac7928 = L.marker(
+                [-16.266037, -56.626098999999996],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_d72055c2e48c42458feb56d22f24ffb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7b16abe2cf174996bd9b180187ac7928.setIcon(icon_d72055c2e48c42458feb56d22f24ffb7);
+        
+    
+        var popup_1183003c383148d595d2dfb58c48e294 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cda9cafe6aa47f98ff1113e06323262 = $(`<div id="html_2cda9cafe6aa47f98ff1113e06323262" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_1183003c383148d595d2dfb58c48e294.setContent(html_2cda9cafe6aa47f98ff1113e06323262);
+        
+
+        marker_7b16abe2cf174996bd9b180187ac7928.bindPopup(popup_1183003c383148d595d2dfb58c48e294)
+        ;
+
+        
+    
+    
+            marker_7b16abe2cf174996bd9b180187ac7928.bindTooltip(
+                `<div>
+                     Poconé
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_525084bb7cab4d15846dfdae3f4e8ccf = L.marker(
+                [-15.221867999999999, -59.343543999999994],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_664cf30b36d94c1e8d5bbaf3a2cd6a8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_525084bb7cab4d15846dfdae3f4e8ccf.setIcon(icon_664cf30b36d94c1e8d5bbaf3a2cd6a8e);
+        
+    
+        var popup_43c7df9f55de4079b9db64c6f9598b79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fab5b18046b943d4934feba7ebe191c9 = $(`<div id="html_fab5b18046b943d4934feba7ebe191c9" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 6.0<br>Descartado 0<br></div>`)[0];
+            popup_43c7df9f55de4079b9db64c6f9598b79.setContent(html_fab5b18046b943d4934feba7ebe191c9);
+        
+
+        marker_525084bb7cab4d15846dfdae3f4e8ccf.bindPopup(popup_43c7df9f55de4079b9db64c6f9598b79)
+        ;
+
+        
+    
+    
+            marker_525084bb7cab4d15846dfdae3f4e8ccf.bindTooltip(
+                `<div>
+                     Pontes e Lacerda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac498e6eb5284c56b25e95f4677a37ff = L.marker(
+                [-15.323517, -57.220403000000005],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_8d85eb2556064d589eee66ab2480fa6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ac498e6eb5284c56b25e95f4677a37ff.setIcon(icon_8d85eb2556064d589eee66ab2480fa6a);
+        
+    
+        var popup_af6806403363416896ef4329cc565041 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cabf9ccaaa984c6b8600a47bc0a12253 = $(`<div id="html_cabf9ccaaa984c6b8600a47bc0a12253" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_af6806403363416896ef4329cc565041.setContent(html_cabf9ccaaa984c6b8600a47bc0a12253);
+        
+
+        marker_ac498e6eb5284c56b25e95f4677a37ff.bindPopup(popup_af6806403363416896ef4329cc565041)
+        ;
+
+        
+    
+    
+            marker_ac498e6eb5284c56b25e95f4677a37ff.bindTooltip(
+                `<div>
+                     Porto Estrela
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd600e20827447c6ab3390f5589aabd6 = L.marker(
+                [-15.841012, -54.388276],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_d08fa24de4954ff19aaedbbc9cd73607 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_bd600e20827447c6ab3390f5589aabd6.setIcon(icon_d08fa24de4954ff19aaedbbc9cd73607);
+        
+    
+        var popup_79fb1b66dbfc46579f07a9069b300bec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_547993cb904b4188905ff3c56ad01014 = $(`<div id="html_547993cb904b4188905ff3c56ad01014" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_79fb1b66dbfc46579f07a9069b300bec.setContent(html_547993cb904b4188905ff3c56ad01014);
+        
+
+        marker_bd600e20827447c6ab3390f5589aabd6.bindPopup(popup_79fb1b66dbfc46579f07a9069b300bec)
+        ;
+
+        
+    
+    
+            marker_bd600e20827447c6ab3390f5589aabd6.bindTooltip(
+                `<div>
+                     Poxoréo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7214713b96b74076b837b754e2e1f6f9 = L.marker(
+                [-15.543970999999999, -54.28105600000001],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_9853f778ee7d417e96399ba423b724c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7214713b96b74076b837b754e2e1f6f9.setIcon(icon_9853f778ee7d417e96399ba423b724c3);
+        
+    
+        var popup_1460e26ac0274bf5934c8885cbcb891b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6265c9d79a314119bb2821ab4ca80a4e = $(`<div id="html_6265c9d79a314119bb2821ab4ca80a4e" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 5.0<br>Descartado 1.0<br></div>`)[0];
+            popup_1460e26ac0274bf5934c8885cbcb891b.setContent(html_6265c9d79a314119bb2821ab4ca80a4e);
+        
+
+        marker_7214713b96b74076b837b754e2e1f6f9.bindPopup(popup_1460e26ac0274bf5934c8885cbcb891b)
+        ;
+
+        
+    
+    
+            marker_7214713b96b74076b837b754e2e1f6f9.bindTooltip(
+                `<div>
+                     Primavera do Leste
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26adf937531944deb823b096df14f502 = L.marker(
+                [-12.609294, -52.182102],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_2e76633365734af19bb72e8c291bcf68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_26adf937531944deb823b096df14f502.setIcon(icon_2e76633365734af19bb72e8c291bcf68);
+        
+    
+        var popup_1d35e729d08946159ec92fd4f69ab8c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df16e094acbd47de956d6fce5398dea6 = $(`<div id="html_df16e094acbd47de956d6fce5398dea6" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_1d35e729d08946159ec92fd4f69ab8c1.setContent(html_df16e094acbd47de956d6fce5398dea6);
+        
+
+        marker_26adf937531944deb823b096df14f502.bindPopup(popup_1d35e729d08946159ec92fd4f69ab8c1)
+        ;
+
+        
+    
+    
+            marker_26adf937531944deb823b096df14f502.bindTooltip(
+                `<div>
+                     Querência
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a01cb11f73004a90a29b4084ed586d70 = L.marker(
+                [-13.439817999999999, -56.721841000000005],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_344a3b4655ce4d2a8ba8e05c53dec302 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a01cb11f73004a90a29b4084ed586d70.setIcon(icon_344a3b4655ce4d2a8ba8e05c53dec302);
+        
+    
+        var popup_9e592723842142059f7b021c449991a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0315aaaf61fb41cfb70cca414d339d06 = $(`<div id="html_0315aaaf61fb41cfb70cca414d339d06" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 5.0<br>Descartado 0<br></div>`)[0];
+            popup_9e592723842142059f7b021c449991a1.setContent(html_0315aaaf61fb41cfb70cca414d339d06);
+        
+
+        marker_a01cb11f73004a90a29b4084ed586d70.bindPopup(popup_9e592723842142059f7b021c449991a1)
+        ;
+
+        
+    
+    
+            marker_a01cb11f73004a90a29b4084ed586d70.bindTooltip(
+                `<div>
+                     São José do Rio Claro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a064cd84a6d4a1eb89850f082803589 = L.marker(
+                [-10.837556, -61.469737],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_6e996de110df4690951eabd9fd9f6e17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6a064cd84a6d4a1eb89850f082803589.setIcon(icon_6e996de110df4690951eabd9fd9f6e17);
+        
+    
+        var popup_2de5cead52f64f2e91b31de220f11796 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cf4a72092644e9ca38a253c874f2508 = $(`<div id="html_5cf4a72092644e9ca38a253c874f2508" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 0<br>Descartado 0<br></div>`)[0];
+            popup_2de5cead52f64f2e91b31de220f11796.setContent(html_5cf4a72092644e9ca38a253c874f2508);
+        
+
+        marker_6a064cd84a6d4a1eb89850f082803589.bindPopup(popup_2de5cead52f64f2e91b31de220f11796)
+        ;
+
+        
+    
+    
+            marker_6a064cd84a6d4a1eb89850f082803589.bindTooltip(
+                `<div>
+                     Rondolândia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37882170c1414105b92e099cc25a7950 = L.marker(
+                [-16.467251, -54.637173],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_eb2af3b292804996a04da17ad5571769 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_37882170c1414105b92e099cc25a7950.setIcon(icon_eb2af3b292804996a04da17ad5571769);
+        
+    
+        var popup_cee77f4e3a884510806126bf115474fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_821af9d05a4b42d6aef88460ee3576e1 = $(`<div id="html_821af9d05a4b42d6aef88460ee3576e1" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 27.0<br>Descartado 2.0<br></div>`)[0];
+            popup_cee77f4e3a884510806126bf115474fe.setContent(html_821af9d05a4b42d6aef88460ee3576e1);
+        
+
+        marker_37882170c1414105b92e099cc25a7950.bindPopup(popup_cee77f4e3a884510806126bf115474fe)
+        ;
+
+        
+    
+    
+            marker_37882170c1414105b92e099cc25a7950.bindTooltip(
+                `<div>
+                     Rondonópolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebdc30a142594ba7a761bce58ff15008 = L.marker(
+                [-14.825938, -56.42357],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_d03d8379b71749e28e36d812dac91214 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ebdc30a142594ba7a761bce58ff15008.setIcon(icon_d03d8379b71749e28e36d812dac91214);
+        
+    
+        var popup_161bd405e3314143be0717a682255386 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4108afd031974485976acde5c2cec409 = $(`<div id="html_4108afd031974485976acde5c2cec409" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 4.0<br>Descartado 0<br></div>`)[0];
+            popup_161bd405e3314143be0717a682255386.setContent(html_4108afd031974485976acde5c2cec409);
+        
+
+        marker_ebdc30a142594ba7a761bce58ff15008.bindPopup(popup_161bd405e3314143be0717a682255386)
+        ;
+
+        
+    
+    
+            marker_ebdc30a142594ba7a761bce58ff15008.bindTooltip(
+                `<div>
+                     Rosário Oeste
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bc9a22ea4514aba82e50e9e572c8de0 = L.marker(
+                [-15.862409, -56.078752],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_4e9dbe91f4c54caf89653c4df7e94d78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1bc9a22ea4514aba82e50e9e572c8de0.setIcon(icon_4e9dbe91f4c54caf89653c4df7e94d78);
+        
+    
+        var popup_81069344565a4cfbbf18e7a3abd2cad5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_793c18aea9b84326b41931d8a3021512 = $(`<div id="html_793c18aea9b84326b41931d8a3021512" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_81069344565a4cfbbf18e7a3abd2cad5.setContent(html_793c18aea9b84326b41931d8a3021512);
+        
+
+        marker_1bc9a22ea4514aba82e50e9e572c8de0.bindPopup(popup_81069344565a4cfbbf18e7a3abd2cad5)
+        ;
+
+        
+    
+    
+            marker_1bc9a22ea4514aba82e50e9e572c8de0.bindTooltip(
+                `<div>
+                     Santo Antônio do Leverger
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_acdf0d1bdcaa4eb5993601abed7d6e67 = L.marker(
+                [-12.989214, -58.764472999999995],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_da601c7ee92243f59651e198c391ae96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_acdf0d1bdcaa4eb5993601abed7d6e67.setIcon(icon_da601c7ee92243f59651e198c391ae96);
+        
+    
+        var popup_e7922b377fa946739f2734b5aebd0d05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_411930f5541c40d2966abb2d470ae210 = $(`<div id="html_411930f5541c40d2966abb2d470ae210" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 3.0<br>Descartado 0<br></div>`)[0];
+            popup_e7922b377fa946739f2734b5aebd0d05.setContent(html_411930f5541c40d2966abb2d470ae210);
+        
+
+        marker_acdf0d1bdcaa4eb5993601abed7d6e67.bindPopup(popup_e7922b377fa946739f2734b5aebd0d05)
+        ;
+
+        
+    
+    
+            marker_acdf0d1bdcaa4eb5993601abed7d6e67.bindTooltip(
+                `<div>
+                     Sapezal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_137da0b12a5847cb8b0312d54b174fd0 = L.marker(
+                [-11.860430000000001, -55.509062],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_2095e75b29934d658d1982fcbac3235e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_137da0b12a5847cb8b0312d54b174fd0.setIcon(icon_2095e75b29934d658d1982fcbac3235e);
+        
+    
+        var popup_241e9512981d49ef876dbcfe4c0cc147 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d1a4db8c5584d9aabc6d4bf0f766223 = $(`<div id="html_3d1a4db8c5584d9aabc6d4bf0f766223" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 22.0<br>Descartado 2.0<br></div>`)[0];
+            popup_241e9512981d49ef876dbcfe4c0cc147.setContent(html_3d1a4db8c5584d9aabc6d4bf0f766223);
+        
+
+        marker_137da0b12a5847cb8b0312d54b174fd0.bindPopup(popup_241e9512981d49ef876dbcfe4c0cc147)
+        ;
+
+        
+    
+    
+            marker_137da0b12a5847cb8b0312d54b174fd0.bindTooltip(
+                `<div>
+                     Sinop
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_84d34e2813034fcc8d4702af0ce5b3d6 = L.marker(
+                [-12.542527, -55.721051],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_d693c44a975145eea6a81586c15f15d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_84d34e2813034fcc8d4702af0ce5b3d6.setIcon(icon_d693c44a975145eea6a81586c15f15d9);
+        
+    
+        var popup_4f5bea82cc8f4b8db1ea6ed8fcc0147f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9459732fac9f4f13aa9770cf8f100ac5 = $(`<div id="html_9459732fac9f4f13aa9770cf8f100ac5" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 5.0<br>Descartado 1.0<br></div>`)[0];
+            popup_4f5bea82cc8f4b8db1ea6ed8fcc0147f.setContent(html_9459732fac9f4f13aa9770cf8f100ac5);
+        
+
+        marker_84d34e2813034fcc8d4702af0ce5b3d6.bindPopup(popup_4f5bea82cc8f4b8db1ea6ed8fcc0147f)
+        ;
+
+        
+    
+    
+            marker_84d34e2813034fcc8d4702af0ce5b3d6.bindTooltip(
+                `<div>
+                     Sorriso
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6a3c4f5d7364afe9b4e1daafb9bb0c5 = L.marker(
+                [-11.300739, -56.831237],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_5ff952818ceb4d919ec0fd50a62a85bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d6a3c4f5d7364afe9b4e1daafb9bb0c5.setIcon(icon_5ff952818ceb4d919ec0fd50a62a85bc);
+        
+    
+        var popup_c27c9f4a3a2f47d38da5f9f64edfe1dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdfc6356682640a1bf167a80ffd13639 = $(`<div id="html_fdfc6356682640a1bf167a80ffd13639" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 2.0<br>Descartado 0<br></div>`)[0];
+            popup_c27c9f4a3a2f47d38da5f9f64edfe1dc.setContent(html_fdfc6356682640a1bf167a80ffd13639);
+        
+
+        marker_d6a3c4f5d7364afe9b4e1daafb9bb0c5.bindPopup(popup_c27c9f4a3a2f47d38da5f9f64edfe1dc)
+        ;
+
+        
+    
+    
+            marker_d6a3c4f5d7364afe9b4e1daafb9bb0c5.bindTooltip(
+                `<div>
+                     Tabaporã
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5887c97210f84d77a18d19cc97f13f9c = L.marker(
+                [-14.622910000000001, -57.493278000000004],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_ce9bd46cc4a4494e803538b201629cf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5887c97210f84d77a18d19cc97f13f9c.setIcon(icon_ce9bd46cc4a4494e803538b201629cf3);
+        
+    
+        var popup_9488d3996cf14458b1b5c106c7ce09e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7515e84d42e04a3d9cb8a956b97ef7e3 = $(`<div id="html_7515e84d42e04a3d9cb8a956b97ef7e3" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 16.0<br>Descartado 1.0<br></div>`)[0];
+            popup_9488d3996cf14458b1b5c106c7ce09e1.setContent(html_7515e84d42e04a3d9cb8a956b97ef7e3);
+        
+
+        marker_5887c97210f84d77a18d19cc97f13f9c.bindPopup(popup_9488d3996cf14458b1b5c106c7ce09e1)
+        ;
+
+        
+    
+    
+            marker_5887c97210f84d77a18d19cc97f13f9c.bindTooltip(
+                `<div>
+                     Tangará da Serra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1181b99c833f4ec39681e0e510d41fa1 = L.marker(
+                [-10.517000000000001, -55.231],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_363dbfaa593541fa867fb0d9efecbd96 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1181b99c833f4ec39681e0e510d41fa1.setIcon(icon_363dbfaa593541fa867fb0d9efecbd96);
+        
+    
+        var popup_598a15198b014cb88ae655670ee1ae1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_407b4c5af5aa44039d76a4e3ade5b557 = $(`<div id="html_407b4c5af5aa44039d76a4e3ade5b557" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_598a15198b014cb88ae655670ee1ae1d.setContent(html_407b4c5af5aa44039d76a4e3ade5b557);
+        
+
+        marker_1181b99c833f4ec39681e0e510d41fa1.bindPopup(popup_598a15198b014cb88ae655670ee1ae1d)
+        ;
+
+        
+    
+    
+            marker_1181b99c833f4ec39681e0e510d41fa1.bindTooltip(
+                `<div>
+                     Terra Nova do Norte
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6617ea40a824b09a900cf38f4d6186c = L.marker(
+                [-11.530776, -54.361637],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_f75206b0c55641e7a578f403aaed1cc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b6617ea40a824b09a900cf38f4d6186c.setIcon(icon_f75206b0c55641e7a578f403aaed1cc2);
+        
+    
+        var popup_18bf7fb8358843c8822548c6e9f6a84d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_094efb5402e8484b8ce2654a0ec3475e = $(`<div id="html_094efb5402e8484b8ce2654a0ec3475e" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_18bf7fb8358843c8822548c6e9f6a84d.setContent(html_094efb5402e8484b8ce2654a0ec3475e);
+        
+
+        marker_b6617ea40a824b09a900cf38f4d6186c.bindPopup(popup_18bf7fb8358843c8822548c6e9f6a84d)
+        ;
+
+        
+    
+    
+            marker_b6617ea40a824b09a900cf38f4d6186c.bindTooltip(
+                `<div>
+                     União do Sul
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00937a5c67964bdb9cd4177dddb25e78 = L.marker(
+                [-15.645816, -56.132218],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_836685ea297c4f429c717157e6f1ab49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_00937a5c67964bdb9cd4177dddb25e78.setIcon(icon_836685ea297c4f429c717157e6f1ab49);
+        
+    
+        var popup_366504fbaed341a2808ccdfaa38fc5f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44aa21dbc70f4334a36776cfb1dd0b57 = $(`<div id="html_44aa21dbc70f4334a36776cfb1dd0b57" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>1.0<br>Suspeito 29.0<br>Descartado 2.0<br></div>`)[0];
+            popup_366504fbaed341a2808ccdfaa38fc5f7.setContent(html_44aa21dbc70f4334a36776cfb1dd0b57);
+        
+
+        marker_00937a5c67964bdb9cd4177dddb25e78.bindPopup(popup_366504fbaed341a2808ccdfaa38fc5f7)
+        ;
+
+        
+    
+    
+            marker_00937a5c67964bdb9cd4177dddb25e78.bindTooltip(
+                `<div>
+                     Várzea Grande
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_901b9963c5c745819b5f3df65a3f2b8f = L.marker(
+                [-10.013666, -51.118598999999996],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_49c44a0a488941868925be1329f7b128 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_901b9963c5c745819b5f3df65a3f2b8f.setIcon(icon_49c44a0a488941868925be1329f7b128);
+        
+    
+        var popup_b3baa1377c8146e1acfbccddcaab73b2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15c1d2cd8ed44135899f1b4baa1e1982 = $(`<div id="html_15c1d2cd8ed44135899f1b4baa1e1982" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_b3baa1377c8146e1acfbccddcaab73b2.setContent(html_15c1d2cd8ed44135899f1b4baa1e1982);
+        
+
+        marker_901b9963c5c745819b5f3df65a3f2b8f.bindPopup(popup_b3baa1377c8146e1acfbccddcaab73b2)
+        ;
+
+        
+    
+    
+            marker_901b9963c5c745819b5f3df65a3f2b8f.bindTooltip(
+                `<div>
+                     Vila Rica
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_761d7341d553445d862ba7a8de56fa1f = L.marker(
+                [-9.999982000000001, -57.526052],
+                {}
+            ).addTo(map_a5993bdebfb5431e8e4b2691ee807b33);
+        
+    
+            var icon_9bcc3bcd53474a99bb2d8c6d20e4b597 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ambulance", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_761d7341d553445d862ba7a8de56fa1f.setIcon(icon_9bcc3bcd53474a99bb2d8c6d20e4b597);
+        
+    
+        var popup_3f5e2c7b0cfb461a8ff350033db20011 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aff4dbc344e64e628d29cb300c18ed86 = $(`<div id="html_aff4dbc344e64e628d29cb300c18ed86" style="width: 100.0%; height: 100.0%;"><b bgcolor="#FF0000">Confirmado </b>1.0<br>Suspeito 1.0<br>Descartado 0<br></div>`)[0];
+            popup_3f5e2c7b0cfb461a8ff350033db20011.setContent(html_aff4dbc344e64e628d29cb300c18ed86);
+        
+
+        marker_761d7341d553445d862ba7a8de56fa1f.bindPopup(popup_3f5e2c7b0cfb461a8ff350033db20011)
+        ;
+
+        
+    
+    
+            marker_761d7341d553445d862ba7a8de56fa1f.bindTooltip(
+                `<div>
+                     Nova Monte Verde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
